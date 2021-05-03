@@ -1,0 +1,66 @@
+{
+  "build": "h7f98852_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0"
+  ],
+  "extracted_package_dir": "/home/matchstix/anaconda3/pkgs/libutf8proc-2.6.1-h7f98852_0",
+  "features": "",
+  "files": [
+    "include/utf8proc.h",
+    "lib/libutf8proc.so",
+    "lib/libutf8proc.so.2",
+    "lib/libutf8proc.so.2.4.1"
+  ],
+  "fn": "libutf8proc-2.6.1-h7f98852_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/matchstix/anaconda3/pkgs/libutf8proc-2.6.1-h7f98852_0",
+    "type": 1
+  },
+  "md5": "fd037e965074069cbd94b600a84c27b8",
+  "name": "libutf8proc",
+  "package_tarball_full_path": "/home/matchstix/anaconda3/pkgs/libutf8proc-2.6.1-h7f98852_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/utf8proc.h",
+        "path_type": "hardlink",
+        "sha256": "01958a0a4c23c17aeb20a9a297df61b8541dd87aa90d04007e2742fd8eed3269",
+        "sha256_in_prefix": "01958a0a4c23c17aeb20a9a297df61b8541dd87aa90d04007e2742fd8eed3269",
+        "size_in_bytes": 31001
+      },
+      {
+        "_path": "lib/libutf8proc.so",
+        "path_type": "softlink",
+        "sha256": "39f8157eaa216e040fee800a64cb0c59176091986a95f8ac889e6376e3e7401c",
+        "size_in_bytes": 349712
+      },
+      {
+        "_path": "lib/libutf8proc.so.2",
+        "path_type": "softlink",
+        "sha256": "39f8157eaa216e040fee800a64cb0c59176091986a95f8ac889e6376e3e7401c",
+        "size_in_bytes": 349712
+      },
+      {
+        "_path": "lib/libutf8proc.so.2.4.1",
+        "path_type": "hardlink",
+        "sha256": "39f8157eaa216e040fee800a64cb0c59176091986a95f8ac889e6376e3e7401c",
+        "sha256_in_prefix": "39f8157eaa216e040fee800a64cb0c59176091986a95f8ac889e6376e3e7401c",
+        "size_in_bytes": 349712
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "afaf5913e584bc17547d3841b9271e19eb5193ed55a1f933fd28f390b1961eab",
+  "size": 97586,
+  "subdir": "linux-64",
+  "timestamp": 1608108519197,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libutf8proc-2.6.1-h7f98852_0.tar.bz2",
+  "version": "2.6.1"
+}

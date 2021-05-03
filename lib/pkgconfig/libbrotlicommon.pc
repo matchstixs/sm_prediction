@@ -1,0 +1,11 @@
+prefix=/home/matchstix/anaconda3/envs/stock_predictor
+exec_prefix=/home/matchstix/anaconda3/envs/stock_predictor
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlicommon
+URL: https://github.com/google/brotli
+Description: Brotli common dictionary library
+Version: 1.0.9
+Libs: -L${libdir} -lbrotlicommon
+Cflags: -I${includedir}

@@ -1,0 +1,194 @@
+{
+  "build": "heec2584_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=9.3.0",
+    "libprotobuf >=3.15.1,<3.16.0a0",
+    "libstdcxx-ng >=9.3.0",
+    "lz4-c >=1.9.3,<1.9.4.0a0",
+    "snappy >=1.1.8,<2.0a0",
+    "zlib >=1.2.11,<1.3.0a0",
+    "zstd >=1.4.8,<1.5.0a0"
+  ],
+  "extracted_package_dir": "/home/matchstix/anaconda3/pkgs/orc-1.6.7-heec2584_1",
+  "features": "",
+  "files": [
+    "bin/orc-contents",
+    "bin/orc-metadata",
+    "bin/orc-statistics",
+    "include/orc/BloomFilter.hh",
+    "include/orc/ColumnPrinter.hh",
+    "include/orc/Common.hh",
+    "include/orc/Exceptions.hh",
+    "include/orc/Int128.hh",
+    "include/orc/MemoryPool.hh",
+    "include/orc/OrcFile.hh",
+    "include/orc/Reader.hh",
+    "include/orc/Statistics.hh",
+    "include/orc/Type.hh",
+    "include/orc/Vector.hh",
+    "include/orc/Writer.hh",
+    "include/orc/orc-config.hh",
+    "lib/liborc.so",
+    "share/doc/orc/LICENSE",
+    "share/doc/orc/NOTICE"
+  ],
+  "fn": "orc-1.6.7-heec2584_1.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/home/matchstix/anaconda3/pkgs/orc-1.6.7-heec2584_1",
+    "type": 1
+  },
+  "md5": "a5e9cd6a909892649a6452cb4a85d2d9",
+  "name": "orc",
+  "package_tarball_full_path": "/home/matchstix/anaconda3/pkgs/orc-1.6.7-heec2584_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/orc-contents",
+        "path_type": "hardlink",
+        "sha256": "05c261b11e33a313977e6a79e1046b1d29dea263fee1bf2f680b8d42526a8b57",
+        "sha256_in_prefix": "05c261b11e33a313977e6a79e1046b1d29dea263fee1bf2f680b8d42526a8b57",
+        "size_in_bytes": 206776
+      },
+      {
+        "_path": "bin/orc-metadata",
+        "path_type": "hardlink",
+        "sha256": "ed29778168a3d61b71ba06b246d697e68a62ad459020fedc03764c124e87f08d",
+        "sha256_in_prefix": "ed29778168a3d61b71ba06b246d697e68a62ad459020fedc03764c124e87f08d",
+        "size_in_bytes": 638536
+      },
+      {
+        "_path": "bin/orc-statistics",
+        "path_type": "hardlink",
+        "sha256": "4124779f1beec36bd50f2571dfd9bf1bde30edc7b86be5f433904bc9e38dfc0b",
+        "sha256_in_prefix": "4124779f1beec36bd50f2571dfd9bf1bde30edc7b86be5f433904bc9e38dfc0b",
+        "size_in_bytes": 185120
+      },
+      {
+        "_path": "include/orc/BloomFilter.hh",
+        "path_type": "hardlink",
+        "sha256": "0491dd171ab9756bbe15792784f8b4f19ea2c94c0acfc3713ac36bfcbf2efbe8",
+        "sha256_in_prefix": "0491dd171ab9756bbe15792784f8b4f19ea2c94c0acfc3713ac36bfcbf2efbe8",
+        "size_in_bytes": 1360
+      },
+      {
+        "_path": "include/orc/ColumnPrinter.hh",
+        "path_type": "hardlink",
+        "sha256": "b6c3986bfcf36e59435c239c9694207da77f2e0cf5824f51b330e7d969e44601",
+        "sha256_in_prefix": "b6c3986bfcf36e59435c239c9694207da77f2e0cf5824f51b330e7d969e44601",
+        "size_in_bytes": 1559
+      },
+      {
+        "_path": "include/orc/Common.hh",
+        "path_type": "hardlink",
+        "sha256": "45531683c9d43e6bc137e078905fe454fd97c017b3317d3562ee77a25195c233",
+        "sha256_in_prefix": "45531683c9d43e6bc137e078905fe454fd97c017b3317d3562ee77a25195c233",
+        "size_in_bytes": 7658
+      },
+      {
+        "_path": "include/orc/Exceptions.hh",
+        "path_type": "hardlink",
+        "sha256": "8c368dbba7498ea3118b704c6fbc4c02464e8a57dfd3f6373c25fc6504bfd1c7",
+        "sha256_in_prefix": "8c368dbba7498ea3118b704c6fbc4c02464e8a57dfd3f6373c25fc6504bfd1c7",
+        "size_in_bytes": 1942
+      },
+      {
+        "_path": "include/orc/Int128.hh",
+        "path_type": "hardlink",
+        "sha256": "fe9d89cfa3eef376e4d8eea816efd1dc08cfa0132cba484bcc56497abcfc3ae5",
+        "sha256_in_prefix": "fe9d89cfa3eef376e4d8eea816efd1dc08cfa0132cba484bcc56497abcfc3ae5",
+        "size_in_bytes": 9825
+      },
+      {
+        "_path": "include/orc/MemoryPool.hh",
+        "path_type": "hardlink",
+        "sha256": "9cba54f0ab3f0840e67ef3183bfb92ed72364003f0d6b2a7339c9ffb361c5928",
+        "sha256_in_prefix": "9cba54f0ab3f0840e67ef3183bfb92ed72364003f0d6b2a7339c9ffb361c5928",
+        "size_in_bytes": 3434
+      },
+      {
+        "_path": "include/orc/OrcFile.hh",
+        "path_type": "hardlink",
+        "sha256": "886c93cadf1c4327e3f7d4e1a41d5f39b667d0c582601392cbd9c2db4bb4c001",
+        "sha256_in_prefix": "886c93cadf1c4327e3f7d4e1a41d5f39b667d0c582601392cbd9c2db4bb4c001",
+        "size_in_bytes": 4400
+      },
+      {
+        "_path": "include/orc/Reader.hh",
+        "path_type": "hardlink",
+        "sha256": "52ae7ba5f879a634095ebe37b56bcbada0ea388627673425246ae053f28a84af",
+        "sha256_in_prefix": "52ae7ba5f879a634095ebe37b56bcbada0ea388627673425246ae053f28a84af",
+        "size_in_bytes": 17139
+      },
+      {
+        "_path": "include/orc/Statistics.hh",
+        "path_type": "hardlink",
+        "sha256": "775807c0518ba288f2c15bda7de950bedb375cde10dba205b34f943040d9537b",
+        "sha256_in_prefix": "775807c0518ba288f2c15bda7de950bedb375cde10dba205b34f943040d9537b",
+        "size_in_bytes": 9741
+      },
+      {
+        "_path": "include/orc/Type.hh",
+        "path_type": "hardlink",
+        "sha256": "92a81eaa5630b5a3b7d57fd22fe18cefe1cfd0e57b9aa6d12fba84de5d8583bd",
+        "sha256_in_prefix": "92a81eaa5630b5a3b7d57fd22fe18cefe1cfd0e57b9aa6d12fba84de5d8583bd",
+        "size_in_bytes": 3675
+      },
+      {
+        "_path": "include/orc/Vector.hh",
+        "path_type": "hardlink",
+        "sha256": "cf0a5a2972f2e2c5456e2ad4c4e3a40dcae9acb28c2f7985dc574e6e98450e74",
+        "sha256_in_prefix": "cf0a5a2972f2e2c5456e2ad4c4e3a40dcae9acb28c2f7985dc574e6e98450e74",
+        "size_in_bytes": 9353
+      },
+      {
+        "_path": "include/orc/Writer.hh",
+        "path_type": "hardlink",
+        "sha256": "853bc6cb684c53e7e037fd61c735527c3062011018a93c2172fba8b65e3cf3c4",
+        "sha256_in_prefix": "853bc6cb684c53e7e037fd61c735527c3062011018a93c2172fba8b65e3cf3c4",
+        "size_in_bytes": 6362
+      },
+      {
+        "_path": "include/orc/orc-config.hh",
+        "path_type": "hardlink",
+        "sha256": "aa6ae2280765ce7fafff61142fd4e9d0aabbc3ab4ff433edef5458010a574db9",
+        "sha256_in_prefix": "aa6ae2280765ce7fafff61142fd4e9d0aabbc3ab4ff433edef5458010a574db9",
+        "size_in_bytes": 1773
+      },
+      {
+        "_path": "lib/liborc.so",
+        "path_type": "hardlink",
+        "sha256": "13277f285a86feee562a0617d37a4c0f8d36a37bddcd0b275d1c3207c1ee2d77",
+        "sha256_in_prefix": "13277f285a86feee562a0617d37a4c0f8d36a37bddcd0b275d1c3207c1ee2d77",
+        "size_in_bytes": 1486448
+      },
+      {
+        "_path": "share/doc/orc/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7722d6ce394ee750497a810b5e7c4eb52e9390128854d67ac1f5ffe29e5c0067",
+        "sha256_in_prefix": "7722d6ce394ee750497a810b5e7c4eb52e9390128854d67ac1f5ffe29e5c0067",
+        "size_in_bytes": 19441
+      },
+      {
+        "_path": "share/doc/orc/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "2fbb61b828d64a29b14904edf544e0a33ab710e22bc8bf74923e92c52188d5aa",
+        "sha256_in_prefix": "2fbb61b828d64a29b14904edf544e0a33ab710e22bc8bf74923e92c52188d5aa",
+        "size_in_bytes": 302
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6b49b215848c0b0f86b986e80d0dad40583b34f0bf1349779e98fd1bc9422ea7",
+  "size": 768301,
+  "subdir": "linux-64",
+  "timestamp": 1613892719001,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/orc-1.6.7-heec2584_1.tar.bz2",
+  "version": "1.6.7"
+}

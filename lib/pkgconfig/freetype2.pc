@@ -1,0 +1,14 @@
+prefix=/home/matchstix/anaconda3/envs/stock_predictor
+exec_prefix=/home/matchstix/anaconda3/envs/stock_predictor
+libdir=/home/matchstix/anaconda3/envs/stock_predictor/lib
+includedir=/home/matchstix/anaconda3/envs/stock_predictor/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.4.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/home/matchstix/anaconda3/envs/stock_predictor/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2

@@ -1,0 +1,1046 @@
+{
+  "build": "py38hc9229eb_0_cpu",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [
+    "arrow-cpp-proc * cpu"
+  ],
+  "depends": [
+    "arrow-cpp 4.0.0 py38hd6878d3_0_cpu",
+    "libgcc-ng >=9.3.0",
+    "libstdcxx-ng >=9.3.0",
+    "numpy >=1.16,<2.0a0",
+    "parquet-cpp 1.5.1.*",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38"
+  ],
+  "extracted_package_dir": "/home/matchstix/anaconda3/pkgs/pyarrow-4.0.0-py38hc9229eb_0_cpu",
+  "features": "",
+  "files": [
+    "bin/plasma_store",
+    "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/entry_points.txt",
+    "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/pyarrow/__init__.pxd",
+    "lib/python3.8/site-packages/pyarrow/__init__.py",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/_generated_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/benchmark.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/compute.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/csv.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/cuda.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/dataset.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/feather.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/filesystem.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/flight.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/fs.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/hdfs.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/ipc.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/json.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/jvm.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/orc.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/pandas_compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/parquet.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/plasma.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/serialization.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/types.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/_compute.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_compute.pxd",
+    "lib/python3.8/site-packages/pyarrow/_compute.pyx",
+    "lib/python3.8/site-packages/pyarrow/_csv.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_csv.pxd",
+    "lib/python3.8/site-packages/pyarrow/_csv.pyx",
+    "lib/python3.8/site-packages/pyarrow/_cuda.pxd",
+    "lib/python3.8/site-packages/pyarrow/_cuda.pyx",
+    "lib/python3.8/site-packages/pyarrow/_dataset.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_dataset.pyx",
+    "lib/python3.8/site-packages/pyarrow/_flight.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_flight.pyx",
+    "lib/python3.8/site-packages/pyarrow/_fs.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_fs.pxd",
+    "lib/python3.8/site-packages/pyarrow/_fs.pyx",
+    "lib/python3.8/site-packages/pyarrow/_generated_version.py",
+    "lib/python3.8/site-packages/pyarrow/_hdfs.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_hdfs.pyx",
+    "lib/python3.8/site-packages/pyarrow/_json.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_json.pyx",
+    "lib/python3.8/site-packages/pyarrow/_orc.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_orc.pxd",
+    "lib/python3.8/site-packages/pyarrow/_orc.pyx",
+    "lib/python3.8/site-packages/pyarrow/_parquet.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_parquet.pxd",
+    "lib/python3.8/site-packages/pyarrow/_parquet.pyx",
+    "lib/python3.8/site-packages/pyarrow/_plasma.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_plasma.pyx",
+    "lib/python3.8/site-packages/pyarrow/_s3fs.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/_s3fs.pyx",
+    "lib/python3.8/site-packages/pyarrow/array.pxi",
+    "lib/python3.8/site-packages/pyarrow/benchmark.pxi",
+    "lib/python3.8/site-packages/pyarrow/benchmark.py",
+    "lib/python3.8/site-packages/pyarrow/builder.pxi",
+    "lib/python3.8/site-packages/pyarrow/cffi.py",
+    "lib/python3.8/site-packages/pyarrow/compat.pxi",
+    "lib/python3.8/site-packages/pyarrow/compat.py",
+    "lib/python3.8/site-packages/pyarrow/compute.py",
+    "lib/python3.8/site-packages/pyarrow/config.pxi",
+    "lib/python3.8/site-packages/pyarrow/csv.py",
+    "lib/python3.8/site-packages/pyarrow/cuda.py",
+    "lib/python3.8/site-packages/pyarrow/dataset.py",
+    "lib/python3.8/site-packages/pyarrow/error.pxi",
+    "lib/python3.8/site-packages/pyarrow/feather.pxi",
+    "lib/python3.8/site-packages/pyarrow/feather.py",
+    "lib/python3.8/site-packages/pyarrow/filesystem.py",
+    "lib/python3.8/site-packages/pyarrow/flight.py",
+    "lib/python3.8/site-packages/pyarrow/fs.py",
+    "lib/python3.8/site-packages/pyarrow/gandiva.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/gandiva.pyx",
+    "lib/python3.8/site-packages/pyarrow/hdfs.py",
+    "lib/python3.8/site-packages/pyarrow/includes/__init__.pxd",
+    "lib/python3.8/site-packages/pyarrow/includes/common.pxd",
+    "lib/python3.8/site-packages/pyarrow/includes/libarrow.pxd",
+    "lib/python3.8/site-packages/pyarrow/includes/libarrow_cuda.pxd",
+    "lib/python3.8/site-packages/pyarrow/includes/libarrow_dataset.pxd",
+    "lib/python3.8/site-packages/pyarrow/includes/libarrow_flight.pxd",
+    "lib/python3.8/site-packages/pyarrow/includes/libarrow_fs.pxd",
+    "lib/python3.8/site-packages/pyarrow/includes/libgandiva.pxd",
+    "lib/python3.8/site-packages/pyarrow/includes/libplasma.pxd",
+    "lib/python3.8/site-packages/pyarrow/io-hdfs.pxi",
+    "lib/python3.8/site-packages/pyarrow/io.pxi",
+    "lib/python3.8/site-packages/pyarrow/ipc.pxi",
+    "lib/python3.8/site-packages/pyarrow/ipc.py",
+    "lib/python3.8/site-packages/pyarrow/json.py",
+    "lib/python3.8/site-packages/pyarrow/jvm.py",
+    "lib/python3.8/site-packages/pyarrow/lib.cpython-38-x86_64-linux-gnu.so",
+    "lib/python3.8/site-packages/pyarrow/lib.pxd",
+    "lib/python3.8/site-packages/pyarrow/lib.pyx",
+    "lib/python3.8/site-packages/pyarrow/lib_api.h",
+    "lib/python3.8/site-packages/pyarrow/memory.pxi",
+    "lib/python3.8/site-packages/pyarrow/orc.py",
+    "lib/python3.8/site-packages/pyarrow/pandas-shim.pxi",
+    "lib/python3.8/site-packages/pyarrow/pandas_compat.py",
+    "lib/python3.8/site-packages/pyarrow/parquet.py",
+    "lib/python3.8/site-packages/pyarrow/plasma-store-server",
+    "lib/python3.8/site-packages/pyarrow/plasma.py",
+    "lib/python3.8/site-packages/pyarrow/public-api.pxi",
+    "lib/python3.8/site-packages/pyarrow/scalar.pxi",
+    "lib/python3.8/site-packages/pyarrow/serialization.pxi",
+    "lib/python3.8/site-packages/pyarrow/serialization.py",
+    "lib/python3.8/site-packages/pyarrow/table.pxi",
+    "lib/python3.8/site-packages/pyarrow/tensor.pxi",
+    "lib/python3.8/site-packages/pyarrow/tensorflow/plasma_op.cc",
+    "lib/python3.8/site-packages/pyarrow/types.pxi",
+    "lib/python3.8/site-packages/pyarrow/types.py",
+    "lib/python3.8/site-packages/pyarrow/util.py",
+    "lib/python3.8/site-packages/pyarrow/vendored/__init__.py",
+    "lib/python3.8/site-packages/pyarrow/vendored/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/vendored/__pycache__/version.cpython-38.pyc",
+    "lib/python3.8/site-packages/pyarrow/vendored/version.py"
+  ],
+  "fn": "pyarrow-4.0.0-py38hc9229eb_0_cpu.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/matchstix/anaconda3/pkgs/pyarrow-4.0.0-py38hc9229eb_0_cpu",
+    "type": 1
+  },
+  "md5": "f4882789bf136449ac9e15a7c3dcd917",
+  "name": "pyarrow",
+  "package_tarball_full_path": "/home/matchstix/anaconda3/pkgs/pyarrow-4.0.0-py38hc9229eb_0_cpu.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/plasma_store",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/arrow-cpp-ext_1619593364969/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "bbebb4e85281798dc890a17e08fae042f7bc6659cb5f94c4bbd5314c0a955313",
+        "sha256_in_prefix": "fe8ade13f27bf60948b47914df9b41d751e2a7a270718ac54ae01a17379cf032",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "c067f36a009df40d3dd1df8b8b2762db08d220837b107acf17812a86a53ffce5",
+        "sha256_in_prefix": "c067f36a009df40d3dd1df8b8b2762db08d220837b107acf17812a86a53ffce5",
+        "size_in_bytes": 3277
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "055a914885061ee5834176b932690c24a9862404aaac434a062b884983cbab37",
+        "sha256_in_prefix": "055a914885061ee5834176b932690c24a9862404aaac434a062b884983cbab37",
+        "size_in_bytes": 5824
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "658dc14efd93003e1dd2263bb5db7ed2faa18fd6f9e49b601032100517387dda",
+        "sha256_in_prefix": "658dc14efd93003e1dd2263bb5db7ed2faa18fd6f9e49b601032100517387dda",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "313dfb381b75eba58bf316f1adfda18c67f41bdd24f1bd9b357601408e47ae17",
+        "sha256_in_prefix": "313dfb381b75eba58bf316f1adfda18c67f41bdd24f1bd9b357601408e47ae17",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow-4.0.0-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "66e93f73559e8a75dd333db47d7944b460baef37ca396bb053c69da44114fe72",
+        "sha256_in_prefix": "66e93f73559e8a75dd333db47d7944b460baef37ca396bb053c69da44114fe72",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "5a76abd69845a8cfd91e7666b5bbaa9bac091ec5e506860a855ed09a8da35070",
+        "sha256_in_prefix": "5a76abd69845a8cfd91e7666b5bbaa9bac091ec5e506860a855ed09a8da35070",
+        "size_in_bytes": 2195
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dfa1c988520bd2ef1dcb34c0abbede7647800637a224821dc9703d25105fd700",
+        "sha256_in_prefix": "dfa1c988520bd2ef1dcb34c0abbede7647800637a224821dc9703d25105fd700",
+        "size_in_bytes": 20961
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1732a7271380c275024213759b06efe5c35b13c59a54b1b0654e01d4762c264f",
+        "sha256_in_prefix": "1732a7271380c275024213759b06efe5c35b13c59a54b1b0654e01d4762c264f",
+        "size_in_bytes": 16321
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/_generated_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b2e874396008f8a0457346b2957402cddbaa398357a7f813c6b629efa83c742",
+        "sha256_in_prefix": "7b2e874396008f8a0457346b2957402cddbaa398357a7f813c6b629efa83c742",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/benchmark.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe2e9e6cc86b745c3000e0217a9fc02047136499baa998d20245447c9b056d58",
+        "sha256_in_prefix": "fe2e9e6cc86b745c3000e0217a9fc02047136499baa998d20245447c9b056d58",
+        "size_in_bytes": 203
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/cffi.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7a1661641232e06de25841dfde937ca18d3734a53a942ad60aa1fdc990f02e7",
+        "sha256_in_prefix": "f7a1661641232e06de25841dfde937ca18d3734a53a942ad60aa1fdc990f02e7",
+        "size_in_bytes": 1477
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "55010517deb48b26e2ea583d7e988a88d96ef01819e2bb0d0d1f9b52a16e8711",
+        "sha256_in_prefix": "55010517deb48b26e2ea583d7e988a88d96ef01819e2bb0d0d1f9b52a16e8711",
+        "size_in_bytes": 384
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/compute.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "92020452bc8071f2bc3b950b9a3169ef926899e5340a1026cb8ea388b8ca21a5",
+        "sha256_in_prefix": "92020452bc8071f2bc3b950b9a3169ef926899e5340a1026cb8ea388b8ca21a5",
+        "size_in_bytes": 12602
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/csv.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "adeeec46b2b4d22108d5b5261ed073effced8f98b6ac1364de0a69bb837f103f",
+        "sha256_in_prefix": "adeeec46b2b4d22108d5b5261ed073effced8f98b6ac1364de0a69bb837f103f",
+        "size_in_bytes": 357
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/cuda.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8ab275a304973acde5f5b8e10a87c9cfcdbceb77293ff892f151aa057705f821",
+        "sha256_in_prefix": "8ab275a304973acde5f5b8e10a87c9cfcdbceb77293ff892f151aa057705f821",
+        "size_in_bytes": 400
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/dataset.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2e32b30aaa35cfab8cba2dcdf0a32ee4a0ce1f0bd5a727120312d42f7f1f70d7",
+        "sha256_in_prefix": "2e32b30aaa35cfab8cba2dcdf0a32ee4a0ce1f0bd5a727120312d42f7f1f70d7",
+        "size_in_bytes": 24766
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/feather.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "494834cef39ad05236f009a40e6e207a81e258804bf2be1450aa329158d2da45",
+        "sha256_in_prefix": "494834cef39ad05236f009a40e6e207a81e258804bf2be1450aa329158d2da45",
+        "size_in_bytes": 7625
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/filesystem.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8357a87d1ff419a8fd0701b47b13bb309aba435c8d52bda61b5dacaf7d16707",
+        "sha256_in_prefix": "e8357a87d1ff419a8fd0701b47b13bb309aba435c8d52bda61b5dacaf7d16707",
+        "size_in_bytes": 14239
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/flight.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c35145ecf9a001a9575353668623a9d31339d6e8eaec0ebb91e7b079c98e8acb",
+        "sha256_in_prefix": "c35145ecf9a001a9575353668623a9d31339d6e8eaec0ebb91e7b079c98e8acb",
+        "size_in_bytes": 1348
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/fs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "82e01d63091bcbd19f540422bd576d74b05763e4db53f9868fdef64ea8ac703c",
+        "sha256_in_prefix": "82e01d63091bcbd19f540422bd576d74b05763e4db53f9868fdef64ea8ac703c",
+        "size_in_bytes": 8084
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/hdfs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a7445c53835ddfcb676726298264d30137d907f0fd1c84173b7fd6d3645f248a",
+        "sha256_in_prefix": "a7445c53835ddfcb676726298264d30137d907f0fd1c84173b7fd6d3645f248a",
+        "size_in_bytes": 7049
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/ipc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "884d9f4f4d269a5f2ca45ab5972870f3a750c80c8a39baabb4026668f0a95517",
+        "sha256_in_prefix": "884d9f4f4d269a5f2ca45ab5972870f3a750c80c8a39baabb4026668f0a95517",
+        "size_in_bytes": 7329
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/json.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e599298662495db522010cecc8814e08e380d696819ff6c4968d77196e28efee",
+        "sha256_in_prefix": "e599298662495db522010cecc8814e08e380d696819ff6c4968d77196e28efee",
+        "size_in_bytes": 226
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/jvm.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c1c380976f24bd95abf0bea8a956bdd4a7ae735141f07e449e3a3bdc5f8b1ff9",
+        "sha256_in_prefix": "c1c380976f24bd95abf0bea8a956bdd4a7ae735141f07e449e3a3bdc5f8b1ff9",
+        "size_in_bytes": 8105
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/orc.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6acd2e60516d187ca58af4191f3c4163d605383f29ece2dc2f7d7e221ed8c6c3",
+        "sha256_in_prefix": "6acd2e60516d187ca58af4191f3c4163d605383f29ece2dc2f7d7e221ed8c6c3",
+        "size_in_bytes": 5978
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/pandas_compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "147e7deb1d7a5351a9e188911b7fc165e62a8d39c4555885b973dfb5866747fa",
+        "sha256_in_prefix": "147e7deb1d7a5351a9e188911b7fc165e62a8d39c4555885b973dfb5866747fa",
+        "size_in_bytes": 28082
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/parquet.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bcbf7a5b66b99e884f9acb372793300451126484c174d66f9f3dfe449fb01bf2",
+        "sha256_in_prefix": "bcbf7a5b66b99e884f9acb372793300451126484c174d66f9f3dfe449fb01bf2",
+        "size_in_bytes": 59674
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/plasma.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe59157241ad5dadada307a887202b1e4b667499fccbbaf18c7431d9fc22eda2",
+        "sha256_in_prefix": "fe59157241ad5dadada307a887202b1e4b667499fccbbaf18c7431d9fc22eda2",
+        "size_in_bytes": 4117
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/serialization.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce624fa21d39475fbb918e42631b55f49514b88a7a359fef0b0c656f80dd818b",
+        "sha256_in_prefix": "ce624fa21d39475fbb918e42631b55f49514b88a7a359fef0b0c656f80dd818b",
+        "size_in_bytes": 13899
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/types.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6469173280f1aee25fb3ac512c8c5cf410602fa94dc70d04fcd03dcb97f506d3",
+        "sha256_in_prefix": "6469173280f1aee25fb3ac512c8c5cf410602fa94dc70d04fcd03dcb97f506d3",
+        "size_in_bytes": 9602
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/__pycache__/util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4eaaa2e3813e4bacfa04cef1ef9f0b2fec1a5cfee82188f00c147fbd12d6aad5",
+        "sha256_in_prefix": "4eaaa2e3813e4bacfa04cef1ef9f0b2fec1a5cfee82188f00c147fbd12d6aad5",
+        "size_in_bytes": 3812
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_compute.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "53e6351e617d0cddcdddd8ea3759235c76e376284ce1273475445a3d5ec4ed18",
+        "sha256_in_prefix": "53e6351e617d0cddcdddd8ea3759235c76e376284ce1273475445a3d5ec4ed18",
+        "size_in_bytes": 499640
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_compute.pxd",
+        "path_type": "hardlink",
+        "sha256": "3802bedb202acf20019f987c58a840dcded8d5ba8f26f68d0597819eb91a6728",
+        "sha256_in_prefix": "3802bedb202acf20019f987c58a840dcded8d5ba8f26f68d0597819eb91a6728",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_compute.pyx",
+        "path_type": "hardlink",
+        "sha256": "f57bd0bbf2d312467fc7a342bea01ec49ddad0ea1074d49857295e9a8df3b5da",
+        "sha256_in_prefix": "f57bd0bbf2d312467fc7a342bea01ec49ddad0ea1074d49857295e9a8df3b5da",
+        "size_in_bytes": 34470
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_csv.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "ef47e839617fde6392fa0a4c723ce36347aca0bff8af30129f7156930e4a12a5",
+        "sha256_in_prefix": "ef47e839617fde6392fa0a4c723ce36347aca0bff8af30129f7156930e4a12a5",
+        "size_in_bytes": 289056
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_csv.pxd",
+        "path_type": "hardlink",
+        "sha256": "9bdce8fea3339d606fdeba916be6e9abccd77f411855d36bd1422a7c4c6eb4d7",
+        "sha256_in_prefix": "9bdce8fea3339d606fdeba916be6e9abccd77f411855d36bd1422a7c4c6eb4d7",
+        "size_in_bytes": 1398
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_csv.pyx",
+        "path_type": "hardlink",
+        "sha256": "1d0d8496d47b9c38652f6614babd5235790ac4ef37cb5e53a24ff959ea124e39",
+        "sha256_in_prefix": "1d0d8496d47b9c38652f6614babd5235790ac4ef37cb5e53a24ff959ea124e39",
+        "size_in_bytes": 33632
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_cuda.pxd",
+        "path_type": "hardlink",
+        "sha256": "57384cea3f5da4d82b00196f1492a8329442d00b39e629be337b603d33aec049",
+        "sha256_in_prefix": "57384cea3f5da4d82b00196f1492a8329442d00b39e629be337b603d33aec049",
+        "size_in_bytes": 1922
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_cuda.pyx",
+        "path_type": "hardlink",
+        "sha256": "2604d8d98a58ad2db08b7e4102cf461197431b22c5abc8ad8ae68ace95ef5578",
+        "sha256_in_prefix": "2604d8d98a58ad2db08b7e4102cf461197431b22c5abc8ad8ae68ace95ef5578",
+        "size_in_bytes": 34722
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_dataset.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "fd80f53c38dca59281ea7621d452bcc9ec2a9b3b06bc69222d0d6c7284b3d3e5",
+        "sha256_in_prefix": "fd80f53c38dca59281ea7621d452bcc9ec2a9b3b06bc69222d0d6c7284b3d3e5",
+        "size_in_bytes": 972304
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_dataset.pyx",
+        "path_type": "hardlink",
+        "sha256": "ae39418c7a3f4e1d62e85422374dfe4f57c91d730deee48b6958004f76064dcd",
+        "sha256_in_prefix": "ae39418c7a3f4e1d62e85422374dfe4f57c91d730deee48b6958004f76064dcd",
+        "size_in_bytes": 104062
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_flight.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "86b8ab29916a75bd40de490a334a93154899c5f6c0ed92292b3c21ec24b2390b",
+        "sha256_in_prefix": "86b8ab29916a75bd40de490a334a93154899c5f6c0ed92292b3c21ec24b2390b",
+        "size_in_bytes": 1109464
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_flight.pyx",
+        "path_type": "hardlink",
+        "sha256": "f4dd497e9749bca0660d17a1e7e029936a330f539d565f85c2022a7f8e64c1d3",
+        "sha256_in_prefix": "f4dd497e9749bca0660d17a1e7e029936a330f539d565f85c2022a7f8e64c1d3",
+        "size_in_bytes": 89929
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_fs.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "c64988e080fa7d8be76871392956f7656b146f8ac5b935c79eef6d498ab0474f",
+        "sha256_in_prefix": "c64988e080fa7d8be76871392956f7656b146f8ac5b935c79eef6d498ab0474f",
+        "size_in_bytes": 453424
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_fs.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b20bfe7b29dd1afba53ca9abc809d3345c343cee1be336957ec2dd95fd38d4",
+        "sha256_in_prefix": "e3b20bfe7b29dd1afba53ca9abc809d3345c343cee1be336957ec2dd95fd38d4",
+        "size_in_bytes": 2484
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_fs.pyx",
+        "path_type": "hardlink",
+        "sha256": "0f6de2b183fdd72b7e3f7befacaf0efb7933a1b96037c0850c584e038be8c6c8",
+        "sha256_in_prefix": "0f6de2b183fdd72b7e3f7befacaf0efb7933a1b96037c0850c584e038be8c6c8",
+        "size_in_bytes": 35137
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_generated_version.py",
+        "path_type": "hardlink",
+        "sha256": "acb90f4d1706b273590e45a283ee5bdedf0dc5a1740112175dbffe73228b1e88",
+        "sha256_in_prefix": "acb90f4d1706b273590e45a283ee5bdedf0dc5a1740112175dbffe73228b1e88",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_hdfs.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b4a20c37952bc2bf03bdfe26c2345311cd7789cb427a3ad2eb82bd6cc8ce1163",
+        "sha256_in_prefix": "b4a20c37952bc2bf03bdfe26c2345311cd7789cb427a3ad2eb82bd6cc8ce1163",
+        "size_in_bytes": 135096
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_hdfs.pyx",
+        "path_type": "hardlink",
+        "sha256": "0e6df4f46e10e95201e07bcb78ccbe806231049404f8c8fe53b905873379a4f9",
+        "sha256_in_prefix": "0e6df4f46e10e95201e07bcb78ccbe806231049404f8c8fe53b905873379a4f9",
+        "size_in_bytes": 5136
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_json.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "1fa0226800854b29884f483a16aae050522074d7b9800a4fe4b634e51c9a950f",
+        "sha256_in_prefix": "1fa0226800854b29884f483a16aae050522074d7b9800a4fe4b634e51c9a950f",
+        "size_in_bytes": 90016
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_json.pyx",
+        "path_type": "hardlink",
+        "sha256": "fbd4c8cfc292e1a69cdea6f649c429adc7fb6e2098adbbf7ef92c99e07691f58",
+        "sha256_in_prefix": "fbd4c8cfc292e1a69cdea6f649c429adc7fb6e2098adbbf7ef92c99e07691f58",
+        "size_in_bytes": 8431
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_orc.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "2a035274bf7f6ce26133e2b3ad831272e15765ee439ea0fb78300e883c1b3b27",
+        "sha256_in_prefix": "2a035274bf7f6ce26133e2b3ad831272e15765ee439ea0fb78300e883c1b3b27",
+        "size_in_bytes": 84448
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_orc.pxd",
+        "path_type": "hardlink",
+        "sha256": "0f09b20e68a929d04dc76a1e8ed602597b633dccf7e095977f2f25cad9d20df1",
+        "sha256_in_prefix": "0f09b20e68a929d04dc76a1e8ed602597b633dccf7e095977f2f25cad9d20df1",
+        "size_in_bytes": 2331
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_orc.pyx",
+        "path_type": "hardlink",
+        "sha256": "2c6c2a83ea67504b041397d15212f3d3eef7fc641a50e5e4ed1e928834a29318",
+        "sha256_in_prefix": "2c6c2a83ea67504b041397d15212f3d3eef7fc641a50e5e4ed1e928834a29318",
+        "size_in_bytes": 4552
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_parquet.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "98ffb3d5580e3995bdeee21e648bd760de8415bc82a07d98cb0deeae767f3ac6",
+        "sha256_in_prefix": "98ffb3d5580e3995bdeee21e648bd760de8415bc82a07d98cb0deeae767f3ac6",
+        "size_in_bytes": 503600
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_parquet.pxd",
+        "path_type": "hardlink",
+        "sha256": "2578260fe58921b67a4060c9f2c6f24a8757085b607eca148c35fc439c4ccdf9",
+        "sha256_in_prefix": "2578260fe58921b67a4060c9f2c6f24a8757085b607eca148c35fc439c4ccdf9",
+        "size_in_bytes": 21775
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_parquet.pyx",
+        "path_type": "hardlink",
+        "sha256": "73fa8965ea898ba6555d2738eee4fb84b540e0059b2425c259ab798cb43efe72",
+        "sha256_in_prefix": "73fa8965ea898ba6555d2738eee4fb84b540e0059b2425c259ab798cb43efe72",
+        "size_in_bytes": 46790
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_plasma.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "f2ec748a08709e726e0d82ca7e8c86f2d5a800c3a99eb0f551a4e3ac067c336e",
+        "sha256_in_prefix": "f2ec748a08709e726e0d82ca7e8c86f2d5a800c3a99eb0f551a4e3ac067c336e",
+        "size_in_bytes": 263184
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_plasma.pyx",
+        "path_type": "hardlink",
+        "sha256": "ad1134cb0be1f75a8fede7cf3f418c9f28ca43e81b665934d2313c09ce35e0cf",
+        "sha256_in_prefix": "ad1134cb0be1f75a8fede7cf3f418c9f28ca43e81b665934d2313c09ce35e0cf",
+        "size_in_bytes": 29527
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_s3fs.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "240e185da84d0bfdb8b0d974b32c0c575285283150817a58e0058cc918aeba12",
+        "sha256_in_prefix": "240e185da84d0bfdb8b0d974b32c0c575285283150817a58e0058cc918aeba12",
+        "size_in_bytes": 188312
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/_s3fs.pyx",
+        "path_type": "hardlink",
+        "sha256": "b84db89c5a98a029cce243645bd438b24ce5d0489526fd70b51230f4f50f60ca",
+        "sha256_in_prefix": "b84db89c5a98a029cce243645bd438b24ce5d0489526fd70b51230f4f50f60ca",
+        "size_in_bytes": 10630
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/array.pxi",
+        "path_type": "hardlink",
+        "sha256": "7088accdc7cde932c9dd4cb739622d102a8a1f11249fb37e5978e53aa16b1c22",
+        "sha256_in_prefix": "7088accdc7cde932c9dd4cb739622d102a8a1f11249fb37e5978e53aa16b1c22",
+        "size_in_bytes": 74292
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/benchmark.pxi",
+        "path_type": "hardlink",
+        "sha256": "0d85ddbbe8cc487ed7713a216dcf31f0d88a44bb695fd2142df636d288647df0",
+        "sha256_in_prefix": "0d85ddbbe8cc487ed7713a216dcf31f0d88a44bb695fd2142df636d288647df0",
+        "size_in_bytes": 869
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/benchmark.py",
+        "path_type": "hardlink",
+        "sha256": "93d677c90ca8a23a58cf895303a0e409fa93e9f3c6dcdd9f26db072a3a5b605a",
+        "sha256_in_prefix": "93d677c90ca8a23a58cf895303a0e409fa93e9f3c6dcdd9f26db072a3a5b605a",
+        "size_in_bytes": 856
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/builder.pxi",
+        "path_type": "hardlink",
+        "sha256": "616b86ac065316e0a14ac20806eb8d9381800cc8e1b45dea2f2401355d85d80e",
+        "sha256_in_prefix": "616b86ac065316e0a14ac20806eb8d9381800cc8e1b45dea2f2401355d85d80e",
+        "size_in_bytes": 2688
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/cffi.py",
+        "path_type": "hardlink",
+        "sha256": "ed8b20e79cc7abcbd81fb8ab0a192c13db3ff4e275a723e5b8f168fe913aeb93",
+        "sha256_in_prefix": "ed8b20e79cc7abcbd81fb8ab0a192c13db3ff4e275a723e5b8f168fe913aeb93",
+        "size_in_bytes": 2178
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/compat.pxi",
+        "path_type": "hardlink",
+        "sha256": "f4ae211c513a5f370c1230a841f6827d0de8bf5f80e5feb3e599f1dc1c9ee255",
+        "sha256_in_prefix": "f4ae211c513a5f370c1230a841f6827d0de8bf5f80e5feb3e599f1dc1c9ee255",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/compat.py",
+        "path_type": "hardlink",
+        "sha256": "f14e4a5af73730fc274277d3f5f08250eca0ff449122bab4b4beba1459f0862a",
+        "sha256_in_prefix": "f14e4a5af73730fc274277d3f5f08250eca0ff449122bab4b4beba1459f0862a",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/compute.py",
+        "path_type": "hardlink",
+        "sha256": "043fc377caf82e707cbb74a4fd86f385ffa27fdbe16fb46955486ce972724338",
+        "sha256_in_prefix": "043fc377caf82e707cbb74a4fd86f385ffa27fdbe16fb46955486ce972724338",
+        "size_in_bytes": 13992
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/config.pxi",
+        "path_type": "hardlink",
+        "sha256": "f91291f84920e1dea21d7b5516bf6391b6c2c90d4c36f3bf655a7d336944ff8e",
+        "sha256_in_prefix": "f91291f84920e1dea21d7b5516bf6391b6c2c90d4c36f3bf655a7d336944ff8e",
+        "size_in_bytes": 2613
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/csv.py",
+        "path_type": "hardlink",
+        "sha256": "dc6d000abb2d80e86c9035ca3074c34ce172c19bc97197e06bfd597b89c38919",
+        "sha256_in_prefix": "dc6d000abb2d80e86c9035ca3074c34ce172c19bc97197e06bfd597b89c38919",
+        "size_in_bytes": 951
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/cuda.py",
+        "path_type": "hardlink",
+        "sha256": "8fefbc1dc0409b921bfa46e12b877633a4954260d692beccb797e7c14d8bcdd4",
+        "sha256_in_prefix": "8fefbc1dc0409b921bfa46e12b877633a4954260d692beccb797e7c14d8bcdd4",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/dataset.py",
+        "path_type": "hardlink",
+        "sha256": "ac0eb2e79a9ffd263f6008a858ca0283556dc3ebaa8bcd0e750fe4089824673d",
+        "sha256_in_prefix": "ac0eb2e79a9ffd263f6008a858ca0283556dc3ebaa8bcd0e750fe4089824673d",
+        "size_in_bytes": 29107
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/error.pxi",
+        "path_type": "hardlink",
+        "sha256": "f8370026346dc5224b477684905f1df2945e815162da37997f2c1e5b6e8d92dd",
+        "sha256_in_prefix": "f8370026346dc5224b477684905f1df2945e815162da37997f2c1e5b6e8d92dd",
+        "size_in_bytes": 7390
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/feather.pxi",
+        "path_type": "hardlink",
+        "sha256": "8a97b0c9c94c1519b3fabd7c654fb3d9e75e44a78fd5b3841b8f9c3833082bb0",
+        "sha256_in_prefix": "8a97b0c9c94c1519b3fabd7c654fb3d9e75e44a78fd5b3841b8f9c3833082bb0",
+        "size_in_bytes": 3240
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/feather.py",
+        "path_type": "hardlink",
+        "sha256": "ad2a675de95be21316cda93ec7f3775ba9a9c995ab17cc7dc138cfbf3effd3bb",
+        "sha256_in_prefix": "ad2a675de95be21316cda93ec7f3775ba9a9c995ab17cc7dc138cfbf3effd3bb",
+        "size_in_bytes": 9058
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/filesystem.py",
+        "path_type": "hardlink",
+        "sha256": "f8f964bcb3e3adf8378c57f4047943074213643ed6b4f7c43ba9dbf96809b24c",
+        "sha256_in_prefix": "f8f964bcb3e3adf8378c57f4047943074213643ed6b4f7c43ba9dbf96809b24c",
+        "size_in_bytes": 14468
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/flight.py",
+        "path_type": "hardlink",
+        "sha256": "0c91a126e464ec6ca011f4a0b673d35d4dc9bb4aa10dbd1fe12b65dc7ef85692",
+        "sha256_in_prefix": "0c91a126e464ec6ca011f4a0b673d35d4dc9bb4aa10dbd1fe12b65dc7ef85692",
+        "size_in_bytes": 1794
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/fs.py",
+        "path_type": "hardlink",
+        "sha256": "baaac7edb2fae3e2871938256687cd5f4db2ee6a68866bcfa45878e3031ab3b8",
+        "sha256_in_prefix": "baaac7edb2fae3e2871938256687cd5f4db2ee6a68866bcfa45878e3031ab3b8",
+        "size_in_bytes": 10565
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/gandiva.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "49c0f3c46354bf08cfd267e19ca23d4a79e912679922f93fdfaa13e4a78de66d",
+        "sha256_in_prefix": "49c0f3c46354bf08cfd267e19ca23d4a79e912679922f93fdfaa13e4a78de66d",
+        "size_in_bytes": 269912
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/gandiva.pyx",
+        "path_type": "hardlink",
+        "sha256": "a0eb1bec24daf424bb70409b3d4bb96d4c634059cd54071b365d605ef31f857f",
+        "sha256_in_prefix": "a0eb1bec24daf424bb70409b3d4bb96d4c634059cd54071b365d605ef31f857f",
+        "size_in_bytes": 17390
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/hdfs.py",
+        "path_type": "hardlink",
+        "sha256": "fd7c9b33210bf56403f44f22cc79bc867dee9250c6cf69abb09a2039da8b5f49",
+        "sha256_in_prefix": "fd7c9b33210bf56403f44f22cc79bc867dee9250c6cf69abb09a2039da8b5f49",
+        "size_in_bytes": 7515
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/__init__.pxd",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/common.pxd",
+        "path_type": "hardlink",
+        "sha256": "8f6a3a837dd0869bdc6fd22d69fbddfde9e4e97bbb7bde1bc8dad846d1514428",
+        "sha256_in_prefix": "8f6a3a837dd0869bdc6fd22d69fbddfde9e4e97bbb7bde1bc8dad846d1514428",
+        "size_in_bytes": 4229
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/libarrow.pxd",
+        "path_type": "hardlink",
+        "sha256": "6f7abf6982c190103a774253dcc230a7e121e0b6af7e8c2377bd67f81230f4bc",
+        "sha256_in_prefix": "6f7abf6982c190103a774253dcc230a7e121e0b6af7e8c2377bd67f81230f4bc",
+        "size_in_bytes": 85328
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/libarrow_cuda.pxd",
+        "path_type": "hardlink",
+        "sha256": "baafda03e0b25b15abc30e36ed1a285a5781cd3d5cf44b785d616707287f361e",
+        "sha256_in_prefix": "baafda03e0b25b15abc30e36ed1a285a5781cd3d5cf44b785d616707287f361e",
+        "size_in_bytes": 4841
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/libarrow_dataset.pxd",
+        "path_type": "hardlink",
+        "sha256": "6624743f9fcc352b8d6c67f6444c13fb0a255eb669594a58b7b53d4e1570f0c3",
+        "sha256_in_prefix": "6624743f9fcc352b8d6c67f6444c13fb0a255eb669594a58b7b53d4e1570f0c3",
+        "size_in_bytes": 15666
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/libarrow_flight.pxd",
+        "path_type": "hardlink",
+        "sha256": "83c4ee53b270ade3bdaff548b02aaf2778ea207a6ee0273e310078fd738f2b1e",
+        "sha256_in_prefix": "83c4ee53b270ade3bdaff548b02aaf2778ea207a6ee0273e310078fd738f2b1e",
+        "size_in_bytes": 22171
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/libarrow_fs.pxd",
+        "path_type": "hardlink",
+        "sha256": "55937185a288396ee4d4f806af07d245aa6d9940f4d839490f0158caa1e1816e",
+        "sha256_in_prefix": "55937185a288396ee4d4f806af07d245aa6d9940f4d839490f0158caa1e1816e",
+        "size_in_bytes": 11133
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/libgandiva.pxd",
+        "path_type": "hardlink",
+        "sha256": "95777d0983fe6733e237547f67abd6ffe2801d420a4aed24d7c449a55e21496c",
+        "sha256_in_prefix": "95777d0983fe6733e237547f67abd6ffe2801d420a4aed24d7c449a55e21496c",
+        "size_in_bytes": 11022
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/includes/libplasma.pxd",
+        "path_type": "hardlink",
+        "sha256": "3c3b4d518b58110f8a6edfa9647746c50f6201de589a4304529e03de725232f5",
+        "sha256_in_prefix": "3c3b4d518b58110f8a6edfa9647746c50f6201de589a4304529e03de725232f5",
+        "size_in_bytes": 1095
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/io-hdfs.pxi",
+        "path_type": "hardlink",
+        "sha256": "af6584c05daf0df9f6268ef0db99c1160874918959d08e01952e3499e3856774",
+        "sha256_in_prefix": "af6584c05daf0df9f6268ef0db99c1160874918959d08e01952e3499e3856774",
+        "size_in_bytes": 13394
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/io.pxi",
+        "path_type": "hardlink",
+        "sha256": "37bd9a281764aa7d9b5409aab0bfeca66e2f28d545bdc3853f3c25dab9a5b6d5",
+        "sha256_in_prefix": "37bd9a281764aa7d9b5409aab0bfeca66e2f28d545bdc3853f3c25dab9a5b6d5",
+        "size_in_bytes": 56523
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/ipc.pxi",
+        "path_type": "hardlink",
+        "sha256": "260d400e4da367c0612761d6aaff8d6967762e97b27c41f24a003c743c7fb584",
+        "sha256_in_prefix": "260d400e4da367c0612761d6aaff8d6967762e97b27c41f24a003c743c7fb584",
+        "size_in_bytes": 27499
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/ipc.py",
+        "path_type": "hardlink",
+        "sha256": "7e0dbb3b1c2624855b0f9ff3139d3589a64d55ff3c464cccfe24b65bc2682c9e",
+        "sha256_in_prefix": "7e0dbb3b1c2624855b0f9ff3139d3589a64d55ff3c464cccfe24b65bc2682c9e",
+        "size_in_bytes": 8028
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/json.py",
+        "path_type": "hardlink",
+        "sha256": "37d63bff74d2ace103cb63ab9a043c50aa943ccc75066f5d620a2df9bac9f17c",
+        "sha256_in_prefix": "37d63bff74d2ace103cb63ab9a043c50aa943ccc75066f5d620a2df9bac9f17c",
+        "size_in_bytes": 858
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/jvm.py",
+        "path_type": "hardlink",
+        "sha256": "b7302c22b31208878d02d482f256568d04b4aeaee48da4033e578f0e6be9a83c",
+        "sha256_in_prefix": "b7302c22b31208878d02d482f256568d04b4aeaee48da4033e578f0e6be9a83c",
+        "size_in_bytes": 9593
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/lib.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b60f0a9bd5b4a9adad98f17f0e4adf3e516f8969e31aa443b8d46614fd6ec9f5",
+        "sha256_in_prefix": "b60f0a9bd5b4a9adad98f17f0e4adf3e516f8969e31aa443b8d46614fd6ec9f5",
+        "size_in_bytes": 3762808
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/lib.pxd",
+        "path_type": "hardlink",
+        "sha256": "0f2acf21324a471fea8397c5c3fb7cea6e480022c79a6292d5a5da3f329210ef",
+        "sha256_in_prefix": "0f2acf21324a471fea8397c5c3fb7cea6e480022c79a6292d5a5da3f329210ef",
+        "size_in_bytes": 14293
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/lib.pyx",
+        "path_type": "hardlink",
+        "sha256": "efae0ee07985b6d54eadee66d8154da2671754144b0dd578f6db1909f6740e21",
+        "sha256_in_prefix": "efae0ee07985b6d54eadee66d8154da2671754144b0dd578f6db1909f6740e21",
+        "size_in_bytes": 3962
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/lib_api.h",
+        "path_type": "hardlink",
+        "sha256": "f0917fff2dabedeb3759c1c51a8897ed6179390cf9281aab1a51f79c79cc204c",
+        "sha256_in_prefix": "f0917fff2dabedeb3759c1c51a8897ed6179390cf9281aab1a51f79c79cc204c",
+        "size_in_bytes": 19153
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/memory.pxi",
+        "path_type": "hardlink",
+        "sha256": "bf8dedfd4ec6a7efcdd2f120c111566146ecce7179517490a5d27cbee1129a49",
+        "sha256_in_prefix": "bf8dedfd4ec6a7efcdd2f120c111566146ecce7179517490a5d27cbee1129a49",
+        "size_in_bytes": 6518
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/orc.py",
+        "path_type": "hardlink",
+        "sha256": "3fd5dce8c68baf987aa15ae78715d6cbee0e218c4048768bb2e11d23c77942e5",
+        "sha256_in_prefix": "3fd5dce8c68baf987aa15ae78715d6cbee0e218c4048768bb2e11d23c77942e5",
+        "size_in_bytes": 6207
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/pandas-shim.pxi",
+        "path_type": "hardlink",
+        "sha256": "4410d1904c3cc6c53f7e72d1830f8aac2d208389ea91743e2363679bc4ee928d",
+        "sha256_in_prefix": "4410d1904c3cc6c53f7e72d1830f8aac2d208389ea91743e2363679bc4ee928d",
+        "size_in_bytes": 7987
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/pandas_compat.py",
+        "path_type": "hardlink",
+        "sha256": "deb4ff477417504af8e028199e9ef7f55ba53fd556d163b86bd3ac3607857df1",
+        "sha256_in_prefix": "deb4ff477417504af8e028199e9ef7f55ba53fd556d163b86bd3ac3607857df1",
+        "size_in_bytes": 42243
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/parquet.py",
+        "path_type": "hardlink",
+        "sha256": "e90c84cde3c3a213446384897cc9c0e76fca948fa5485df5a9baf7cc2909e6b4",
+        "sha256_in_prefix": "e90c84cde3c3a213446384897cc9c0e76fca948fa5485df5a9baf7cc2909e6b4",
+        "size_in_bytes": 78529
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/plasma-store-server",
+        "path_type": "hardlink",
+        "sha256": "358592984be5f5182ec0069bd340e1eafc07c193eef8a0816138898fa1e36b87",
+        "sha256_in_prefix": "358592984be5f5182ec0069bd340e1eafc07c193eef8a0816138898fa1e36b87",
+        "size_in_bytes": 259344
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/plasma.py",
+        "path_type": "hardlink",
+        "sha256": "b46f5d59c9849efda04b956ed437f82bdda7bb894050ef2a15bf7421b96a10ce",
+        "sha256_in_prefix": "b46f5d59c9849efda04b956ed437f82bdda7bb894050ef2a15bf7421b96a10ce",
+        "size_in_bytes": 6075
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/public-api.pxi",
+        "path_type": "hardlink",
+        "sha256": "d6b5ba73cb6f1eb9ed38b588de94932dfda42940217f435c878705563004dcac",
+        "sha256_in_prefix": "d6b5ba73cb6f1eb9ed38b588de94932dfda42940217f435c878705563004dcac",
+        "size_in_bytes": 12814
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/scalar.pxi",
+        "path_type": "hardlink",
+        "sha256": "946549b7df02fa25f49746b231c8354992f161c0ec4b8b72ec280b4f84dec228",
+        "sha256_in_prefix": "946549b7df02fa25f49746b231c8354992f161c0ec4b8b72ec280b4f84dec228",
+        "size_in_bytes": 25354
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/serialization.pxi",
+        "path_type": "hardlink",
+        "sha256": "ce8682b21741c997a57c409eeae8cd62812cf8218e65606142a33923938fdcc7",
+        "sha256_in_prefix": "ce8682b21741c997a57c409eeae8cd62812cf8218e65606142a33923938fdcc7",
+        "size_in_bytes": 19079
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/serialization.py",
+        "path_type": "hardlink",
+        "sha256": "e76e28e884cd7fe52635e6e99f9770f965104ea3a68d310e774e99768064dd63",
+        "sha256_in_prefix": "e76e28e884cd7fe52635e6e99f9770f965104ea3a68d310e774e99768064dd63",
+        "size_in_bytes": 18202
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/table.pxi",
+        "path_type": "hardlink",
+        "sha256": "de8df4e91210bdb4bd38ea8e1e14ec829b0a5ba0be3915442acb2ccdf7b21230",
+        "sha256_in_prefix": "de8df4e91210bdb4bd38ea8e1e14ec829b0a5ba0be3915442acb2ccdf7b21230",
+        "size_in_bytes": 68281
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/tensor.pxi",
+        "path_type": "hardlink",
+        "sha256": "0a792a82b58f54765613eab5e5ae6033a01cdbd24220b77c340a70ff2dce16eb",
+        "sha256_in_prefix": "0a792a82b58f54765613eab5e5ae6033a01cdbd24220b77c340a70ff2dce16eb",
+        "size_in_bytes": 30096
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/tensorflow/plasma_op.cc",
+        "path_type": "hardlink",
+        "sha256": "3efb3fe07659b941bd54c716c053345e5c9c441b694d6178a7ac6a5351418f01",
+        "sha256_in_prefix": "3efb3fe07659b941bd54c716c053345e5c9c441b694d6178a7ac6a5351418f01",
+        "size_in_bytes": 14537
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/types.pxi",
+        "path_type": "hardlink",
+        "sha256": "fc034da6c95c0ae9dfa6407a799d13739c8727e9f3d79b64d314f37d1470f281",
+        "sha256_in_prefix": "fc034da6c95c0ae9dfa6407a799d13739c8727e9f3d79b64d314f37d1470f281",
+        "size_in_bytes": 75417
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/types.py",
+        "path_type": "hardlink",
+        "sha256": "17584e7d596bcf0d94370d557c6299e07ce59ef0c713eff8be5e4ef88f1fcd9e",
+        "sha256_in_prefix": "17584e7d596bcf0d94370d557c6299e07ce59ef0c713eff8be5e4ef88f1fcd9e",
+        "size_in_bytes": 7925
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/util.py",
+        "path_type": "hardlink",
+        "sha256": "e6b431da57dcae76d066bcd244e08417209dc9de343fd5f27545a741d9f04fad",
+        "sha256_in_prefix": "e6b431da57dcae76d066bcd244e08417209dc9de343fd5f27545a741d9f04fad",
+        "size_in_bytes": 4118
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/vendored/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f617571c006b56991ba6366051fb77f643852f6c5219e1b8184b9ad0799e96eb",
+        "sha256_in_prefix": "f617571c006b56991ba6366051fb77f643852f6c5219e1b8184b9ad0799e96eb",
+        "size_in_bytes": 785
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/vendored/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "476948edbb2a54a0080b4a7a0dfbea84e0ad6c0985de9ce16a7c3e4c24eb6862",
+        "sha256_in_prefix": "476948edbb2a54a0080b4a7a0dfbea84e0ad6c0985de9ce16a7c3e4c24eb6862",
+        "size_in_bytes": 147
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/vendored/__pycache__/version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4222fd66ce6f50a53f89291e62c4f61b0541f1ea1e493ff48dd6f6505d1b240f",
+        "sha256_in_prefix": "4222fd66ce6f50a53f89291e62c4f61b0541f1ea1e493ff48dd6f6505d1b240f",
+        "size_in_bytes": 14372
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pyarrow/vendored/version.py",
+        "path_type": "hardlink",
+        "sha256": "e7e568e10de43c9ae6d43486bac9cc953c6e03cca7238840af202905de8c9e94",
+        "sha256_in_prefix": "e7e568e10de43c9ae6d43486bac9cc953c6e03cca7238840af202905de8c9e94",
+        "size_in_bytes": 14345
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "66c8c41a259b710fb8a71a64ba73db726c36b36fc536456fa63debe42d6d9bd8",
+  "size": 2834109,
+  "subdir": "linux-64",
+  "timestamp": 1619594886935,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyarrow-4.0.0-py38hc9229eb_0_cpu.tar.bz2",
+  "version": "4.0.0"
+}

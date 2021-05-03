@@ -1,0 +1,3450 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "altair >=3.2.0",
+    "astor",
+    "base58",
+    "blinker",
+    "boto3",
+    "botocore >=1.13.44",
+    "cachetools >=4.0",
+    "click >=7.0",
+    "gitpython",
+    "numpy",
+    "packaging",
+    "pandas >=0.21.0",
+    "pillow >=6.2.0",
+    "protobuf >=3.6.0",
+    "pyarrow",
+    "pydeck >=0.1.dev5",
+    "python >=3.6",
+    "python-dateutil",
+    "requests",
+    "toml",
+    "tornado >=5.0",
+    "tzlocal",
+    "validators",
+    "watchdog"
+  ],
+  "extracted_package_dir": "/home/matchstix/anaconda3/pkgs/streamlit-0.81.0-pyhd8ed1ab_0",
+  "features": "",
+  "files": [
+    "bin/streamlit.cmd",
+    "lib/python3.8/site-packages/streamlit-0.81.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/streamlit-0.81.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/streamlit-0.81.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/streamlit-0.81.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/streamlit-0.81.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/streamlit-0.81.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/streamlit-0.81.0.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/streamlit-0.81.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/streamlit/__init__.py",
+    "lib/python3.8/site-packages/streamlit/__main__.py",
+    "lib/python3.8/site-packages/streamlit/beta_util.py",
+    "lib/python3.8/site-packages/streamlit/bootstrap.py",
+    "lib/python3.8/site-packages/streamlit/caching.py",
+    "lib/python3.8/site-packages/streamlit/case_converters.py",
+    "lib/python3.8/site-packages/streamlit/cli.py",
+    "lib/python3.8/site-packages/streamlit/code_util.py",
+    "lib/python3.8/site-packages/streamlit/commands/__init__.py",
+    "lib/python3.8/site-packages/streamlit/commands/page_config.py",
+    "lib/python3.8/site-packages/streamlit/components/__init__.py",
+    "lib/python3.8/site-packages/streamlit/components/v1/__init__.py",
+    "lib/python3.8/site-packages/streamlit/components/v1/components.py",
+    "lib/python3.8/site-packages/streamlit/config.py",
+    "lib/python3.8/site-packages/streamlit/config_option.py",
+    "lib/python3.8/site-packages/streamlit/config_util.py",
+    "lib/python3.8/site-packages/streamlit/credentials.py",
+    "lib/python3.8/site-packages/streamlit/cursor.py",
+    "lib/python3.8/site-packages/streamlit/delta_generator.py",
+    "lib/python3.8/site-packages/streamlit/development.py",
+    "lib/python3.8/site-packages/streamlit/elements/__init__.py",
+    "lib/python3.8/site-packages/streamlit/elements/alert.py",
+    "lib/python3.8/site-packages/streamlit/elements/altair.py",
+    "lib/python3.8/site-packages/streamlit/elements/arrow_table.py",
+    "lib/python3.8/site-packages/streamlit/elements/balloons.py",
+    "lib/python3.8/site-packages/streamlit/elements/bokeh_chart.py",
+    "lib/python3.8/site-packages/streamlit/elements/button.py",
+    "lib/python3.8/site-packages/streamlit/elements/checkbox.py",
+    "lib/python3.8/site-packages/streamlit/elements/color_picker.py",
+    "lib/python3.8/site-packages/streamlit/elements/data_frame.py",
+    "lib/python3.8/site-packages/streamlit/elements/deck_gl_json_chart.py",
+    "lib/python3.8/site-packages/streamlit/elements/doc_string.py",
+    "lib/python3.8/site-packages/streamlit/elements/empty.py",
+    "lib/python3.8/site-packages/streamlit/elements/exception.py",
+    "lib/python3.8/site-packages/streamlit/elements/file_uploader.py",
+    "lib/python3.8/site-packages/streamlit/elements/form.py",
+    "lib/python3.8/site-packages/streamlit/elements/graphviz_chart.py",
+    "lib/python3.8/site-packages/streamlit/elements/iframe.py",
+    "lib/python3.8/site-packages/streamlit/elements/image.py",
+    "lib/python3.8/site-packages/streamlit/elements/json.py",
+    "lib/python3.8/site-packages/streamlit/elements/layouts.py",
+    "lib/python3.8/site-packages/streamlit/elements/lib/__init__.py",
+    "lib/python3.8/site-packages/streamlit/elements/lib/dicttools.py",
+    "lib/python3.8/site-packages/streamlit/elements/map.py",
+    "lib/python3.8/site-packages/streamlit/elements/markdown.py",
+    "lib/python3.8/site-packages/streamlit/elements/media.py",
+    "lib/python3.8/site-packages/streamlit/elements/multiselect.py",
+    "lib/python3.8/site-packages/streamlit/elements/number_input.py",
+    "lib/python3.8/site-packages/streamlit/elements/plotly_chart.py",
+    "lib/python3.8/site-packages/streamlit/elements/progress.py",
+    "lib/python3.8/site-packages/streamlit/elements/pyplot.py",
+    "lib/python3.8/site-packages/streamlit/elements/radio.py",
+    "lib/python3.8/site-packages/streamlit/elements/select_slider.py",
+    "lib/python3.8/site-packages/streamlit/elements/selectbox.py",
+    "lib/python3.8/site-packages/streamlit/elements/slider.py",
+    "lib/python3.8/site-packages/streamlit/elements/text.py",
+    "lib/python3.8/site-packages/streamlit/elements/text_widgets.py",
+    "lib/python3.8/site-packages/streamlit/elements/time_widgets.py",
+    "lib/python3.8/site-packages/streamlit/elements/utils.py",
+    "lib/python3.8/site-packages/streamlit/elements/vega_lite.py",
+    "lib/python3.8/site-packages/streamlit/elements/write.py",
+    "lib/python3.8/site-packages/streamlit/env_util.py",
+    "lib/python3.8/site-packages/streamlit/error_util.py",
+    "lib/python3.8/site-packages/streamlit/errors.py",
+    "lib/python3.8/site-packages/streamlit/file_util.py",
+    "lib/python3.8/site-packages/streamlit/folder_black_list.py",
+    "lib/python3.8/site-packages/streamlit/forward_msg_cache.py",
+    "lib/python3.8/site-packages/streamlit/git_util.py",
+    "lib/python3.8/site-packages/streamlit/hashing.py",
+    "lib/python3.8/site-packages/streamlit/hello/__init__.py",
+    "lib/python3.8/site-packages/streamlit/hello/demos.py",
+    "lib/python3.8/site-packages/streamlit/hello/hello.py",
+    "lib/python3.8/site-packages/streamlit/js_number.py",
+    "lib/python3.8/site-packages/streamlit/logger.py",
+    "lib/python3.8/site-packages/streamlit/magic.py",
+    "lib/python3.8/site-packages/streamlit/media_file_manager.py",
+    "lib/python3.8/site-packages/streamlit/metrics.py",
+    "lib/python3.8/site-packages/streamlit/metrics_util.py",
+    "lib/python3.8/site-packages/streamlit/net_util.py",
+    "lib/python3.8/site-packages/streamlit/policy.py",
+    "lib/python3.8/site-packages/streamlit/proto/Alert_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/ArrowDataframe_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/ArrowTable_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Audio_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/BackMsg_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Balloons_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Block_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/BokehChart_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Button_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Checkbox_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/ClientState_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/ColorPicker_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Common_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/ComponentInstance_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/DataFrame_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/DateInput_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/DeckGlJsonChart_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Delta_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/DocString_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Element_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Empty_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Exception_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Favicon_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/FileUploader_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/ForwardMsg_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/GitInfo_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/GraphVizChart_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/IFrame_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Image_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Json_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Markdown_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/MultiSelect_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/NamedDataSet_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/NewReport_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/NumberInput_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/PageConfig_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/PageInfo_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/PlotlyChart_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Progress_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Radio_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/RootContainer_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Selectbox_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/SessionEvent_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/SessionState_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Slider_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/StaticManifest_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/TextArea_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/TextInput_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Text_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/TimeInput_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/VegaLiteChart_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/Video_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/WidgetStates_pb2.py",
+    "lib/python3.8/site-packages/streamlit/proto/__init__.py",
+    "lib/python3.8/site-packages/streamlit/report.py",
+    "lib/python3.8/site-packages/streamlit/report_queue.py",
+    "lib/python3.8/site-packages/streamlit/report_session.py",
+    "lib/python3.8/site-packages/streamlit/report_thread.py",
+    "lib/python3.8/site-packages/streamlit/script_request_queue.py",
+    "lib/python3.8/site-packages/streamlit/script_runner.py",
+    "lib/python3.8/site-packages/streamlit/secrets.py",
+    "lib/python3.8/site-packages/streamlit/server/__init__.py",
+    "lib/python3.8/site-packages/streamlit/server/routes.py",
+    "lib/python3.8/site-packages/streamlit/server/server.py",
+    "lib/python3.8/site-packages/streamlit/server/server_util.py",
+    "lib/python3.8/site-packages/streamlit/server/upload_file_request_handler.py",
+    "lib/python3.8/site-packages/streamlit/source_util.py",
+    "lib/python3.8/site-packages/streamlit/static/asset-manifest.json",
+    "lib/python3.8/site-packages/streamlit/static/assets/streamlit.css",
+    "lib/python3.8/site-packages/streamlit/static/favicon.png",
+    "lib/python3.8/site-packages/streamlit/static/index.html",
+    "lib/python3.8/site-packages/streamlit/static/static/css/5.16640d1b.chunk.css",
+    "lib/python3.8/site-packages/streamlit/static/static/css/6.bc8fb8fc.chunk.css",
+    "lib/python3.8/site-packages/streamlit/static/static/css/main.e190763c.chunk.css",
+    "lib/python3.8/site-packages/streamlit/static/static/js/0.82b5f4d5.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/1.129f910d.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/10.d6e51b1b.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/10.d6e51b1b.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/11.985844df.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/12.1f2720bc.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/12.1f2720bc.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/13.e72c8946.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/13.e72c8946.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/14.cdbe655d.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/15.6e16b12a.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/15.6e16b12a.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/16.9e8aa4ff.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/16.9e8aa4ff.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/17.95c13c9f.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/18.c21ab356.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/19.b0df58dc.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/19.b0df58dc.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/2.0a75beb9.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/2.0a75beb9.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/20.ba137896.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/20.ba137896.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/21.dc7e80a7.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/22.c04fa65a.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/23.cdc10ce2.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/23.cdc10ce2.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/24.1ef414d0.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/24.1ef414d0.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/25.daefc2ca.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/25.daefc2ca.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/26.2572e3c9.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/26.2572e3c9.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/27.1aafd82b.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/27.1aafd82b.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/28.e233ef11.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/28.e233ef11.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/29.a4f69064.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/29.a4f69064.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/30.80ce15a9.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/30.80ce15a9.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/31.45be9b9a.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/31.45be9b9a.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/32.3c6011cf.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/33.72d7f62d.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/34.7385bcb1.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/35.64e75478.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/36.114d10c3.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/37.a5cecd62.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/38.bbfe7162.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/5.ffb8dd93.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/5.ffb8dd93.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/6.39816ddb.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/6.39816ddb.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/7.428fc038.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/7.428fc038.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/8.6c51427b.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/9.74ed064c.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/main.0f442c78.chunk.js",
+    "lib/python3.8/site-packages/streamlit/static/static/js/main.0f442c78.chunk.js.LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/static/static/js/runtime-main.20c1b1c2.js",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexMono-Regular.bee53c8c.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSans-Bold.5a0eb98b.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSans-BoldItalic.d5548132.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSans-Italic.5c9d4db4.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSans-Light.0a619f93.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSans-LightItalic.3a1f5a16.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSans-Medium.c401b936.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSans-MediumItalic.3046879d.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSans-Regular.71a4981f.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSerif-Bold.58c7f8d5.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSerif-BoldItalic.346afa5a.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSerif-Italic.bc84e537.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSerif-Light.2e84bbf0.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSerif-LightItalic.1979fd74.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSerif-Medium.283fca3d.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSerif-MediumItalic.fe93e7da.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/IBMPlexSerif-Regular.9e4f976f.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.b1489df1.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.d4531cf7.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.f80d9eaf.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.0c96bc8f.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.7ce7636b.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.f046a374.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.35f3c951.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.4519ba4c.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.4a559f36.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.069514d4.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.2ea3916b.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.5b8749ee.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.0d90113d.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.2c629b06.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.96556db6.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Bold.07e762d0.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Bold.20b90c20.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Bold.a9cdbc85.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.7649d52f.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.b345de5b.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.bc8d96e9.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Italic.44a32ae6.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Italic.ab751a9e.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Italic.e3954fe9.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Regular.13b3f852.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Regular.9e75cd60.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Main-Regular.af7fc7b3.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.4d6241be.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.94810ff6.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.d5d35e84.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Math-Italic.11278d36.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Math-Italic.cae7ea26.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Math-Italic.ffda8803.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.2946bdb5.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.5a20a475.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.f0ad0abc.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.c7feacd5.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.c834ba6d.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.e5fc2aef.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.5af9e1cf.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.5bf28900.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.a4fd0563.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Script-Regular.a1c15978.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Script-Regular.cd3b0634.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Script-Regular.dd0db7ae.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.1876361f.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.bbd9552c.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.c4ae0d25.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.635e9324.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.d1e8ff17.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.f516b73c.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.1ef7adae.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.5d632274.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.f32a9fde.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.1d132596.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.4f012d6a.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.f668d566.woff",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.4f31d033.woff2",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.b1d1af1a.ttf",
+    "lib/python3.8/site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.d3c8e68f.woff",
+    "lib/python3.8/site-packages/streamlit/static/vendor/viz/viz-1.8.0.min.js",
+    "lib/python3.8/site-packages/streamlit/static/vendor/viz/viz.js-LICENSE.txt",
+    "lib/python3.8/site-packages/streamlit/storage/__init__.py",
+    "lib/python3.8/site-packages/streamlit/storage/abstract_storage.py",
+    "lib/python3.8/site-packages/streamlit/storage/file_storage.py",
+    "lib/python3.8/site-packages/streamlit/storage/s3_storage.py",
+    "lib/python3.8/site-packages/streamlit/string_util.py",
+    "lib/python3.8/site-packages/streamlit/temporary_directory.py",
+    "lib/python3.8/site-packages/streamlit/type_util.py",
+    "lib/python3.8/site-packages/streamlit/uploaded_file_manager.py",
+    "lib/python3.8/site-packages/streamlit/url_util.py",
+    "lib/python3.8/site-packages/streamlit/util.py",
+    "lib/python3.8/site-packages/streamlit/version.py",
+    "lib/python3.8/site-packages/streamlit/watcher/__init__.py",
+    "lib/python3.8/site-packages/streamlit/watcher/event_based_file_watcher.py",
+    "lib/python3.8/site-packages/streamlit/watcher/file_watcher.py",
+    "lib/python3.8/site-packages/streamlit/watcher/local_sources_watcher.py",
+    "lib/python3.8/site-packages/streamlit/watcher/polling_file_watcher.py",
+    "lib/python3.8/site-packages/streamlit/watcher/util.py",
+    "lib/python3.8/site-packages/streamlit/widgets.py",
+    "lib/python3.8/site-packages/streamlit/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/beta_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/bootstrap.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/caching.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/case_converters.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/cli.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/code_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/commands/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/commands/__pycache__/page_config.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/components/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/components/v1/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/components/v1/__pycache__/components.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/config_option.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/config_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/credentials.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/cursor.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/delta_generator.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/development.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/alert.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/altair.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/arrow_table.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/balloons.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/bokeh_chart.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/button.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/checkbox.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/color_picker.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/data_frame.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/deck_gl_json_chart.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/doc_string.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/empty.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/exception.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/file_uploader.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/form.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/graphviz_chart.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/iframe.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/image.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/json.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/layouts.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/lib/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/lib/__pycache__/dicttools.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/map.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/markdown.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/media.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/multiselect.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/number_input.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/plotly_chart.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/progress.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/pyplot.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/radio.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/select_slider.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/selectbox.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/slider.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/text.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/text_widgets.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/time_widgets.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/vega_lite.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/elements/__pycache__/write.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/env_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/error_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/file_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/folder_black_list.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/forward_msg_cache.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/git_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/hashing.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/hello/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/hello/__pycache__/demos.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/hello/__pycache__/hello.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/js_number.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/logger.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/magic.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/media_file_manager.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/metrics.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/metrics_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/net_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/policy.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Alert_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/ArrowDataframe_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/ArrowTable_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Audio_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/BackMsg_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Balloons_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Block_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/BokehChart_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Button_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Checkbox_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/ClientState_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/ColorPicker_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Common_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/ComponentInstance_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/DataFrame_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/DateInput_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/DeckGlJsonChart_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Delta_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/DocString_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Element_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Empty_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Exception_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Favicon_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/FileUploader_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/ForwardMsg_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/GitInfo_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/GraphVizChart_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/IFrame_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Image_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Json_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Markdown_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/MultiSelect_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/NamedDataSet_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/NewReport_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/NumberInput_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/PageConfig_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/PageInfo_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/PlotlyChart_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Progress_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Radio_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/RootContainer_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Selectbox_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/SessionEvent_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/SessionState_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Slider_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/StaticManifest_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/TextArea_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/TextInput_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Text_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/TimeInput_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/VegaLiteChart_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/Video_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/WidgetStates_pb2.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/proto/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/report.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/report_queue.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/report_session.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/report_thread.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/script_request_queue.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/script_runner.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/secrets.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/server/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/server/__pycache__/routes.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/server/__pycache__/server.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/server/__pycache__/server_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/server/__pycache__/upload_file_request_handler.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/source_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/storage/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/storage/__pycache__/abstract_storage.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/storage/__pycache__/file_storage.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/storage/__pycache__/s3_storage.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/string_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/temporary_directory.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/type_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/uploaded_file_manager.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/url_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/version.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/watcher/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/watcher/__pycache__/event_based_file_watcher.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/watcher/__pycache__/file_watcher.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/watcher/__pycache__/local_sources_watcher.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/watcher/__pycache__/polling_file_watcher.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/watcher/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/streamlit/__pycache__/widgets.cpython-38.pyc",
+    "bin/streamlit"
+  ],
+  "fn": "streamlit-0.81.0-pyhd8ed1ab_0.tar.bz2",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/home/matchstix/anaconda3/pkgs/streamlit-0.81.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3ed4b46d79fc1d852941a89383a723eb",
+  "name": "streamlit",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/matchstix/anaconda3/pkgs/streamlit-0.81.0-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/streamlit.cmd",
+        "path_type": "hardlink",
+        "sha256": "09c3c17f7b6b44269f17ca2e9db53a3b023e3a7f2c90f356cdcb2b56d880f7d6",
+        "sha256_in_prefix": "09c3c17f7b6b44269f17ca2e9db53a3b023e3a7f2c90f356cdcb2b56d880f7d6",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/streamlit-0.81.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/streamlit-0.81.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9a44c63e9ce4d1b1bda6edf55470fa0afb5ee030ee4fbb7d955d4bd7cd81a13b",
+        "sha256_in_prefix": "9a44c63e9ce4d1b1bda6edf55470fa0afb5ee030ee4fbb7d955d4bd7cd81a13b",
+        "size_in_bytes": 1087
+      },
+      {
+        "_path": "site-packages/streamlit-0.81.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a79f95837b41e3f982eec1d0d4acfd51a36355532adc0854e72e103c83d5ba1d",
+        "sha256_in_prefix": "a79f95837b41e3f982eec1d0d4acfd51a36355532adc0854e72e103c83d5ba1d",
+        "size_in_bytes": 41570
+      },
+      {
+        "_path": "site-packages/streamlit-0.81.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/streamlit-0.81.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/streamlit-0.81.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "61179d92e7811f2991eb8152eae0ec974aef05b0d27daac02768218723db967d",
+        "sha256_in_prefix": "61179d92e7811f2991eb8152eae0ec974aef05b0d27daac02768218723db967d",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/streamlit-0.81.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "5326df5d3d4b552827c16a86f51db3798a355d172a67a2fee647522d46fe1891",
+        "sha256_in_prefix": "5326df5d3d4b552827c16a86f51db3798a355d172a67a2fee647522d46fe1891",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/streamlit-0.81.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "57716129b9bb1b62e7474b384b2b5abeb8c83cd221bdcb001977d81c0c2d433c",
+        "sha256_in_prefix": "57716129b9bb1b62e7474b384b2b5abeb8c83cd221bdcb001977d81c0c2d433c",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/streamlit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5dfaaacbf4275e74856d5f10d4a83120107952167f2786c99764ac920df591fe",
+        "sha256_in_prefix": "5dfaaacbf4275e74856d5f10d4a83120107952167f2786c99764ac920df591fe",
+        "size_in_bytes": 15922
+      },
+      {
+        "_path": "site-packages/streamlit/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "b76094f907d516ed7ba3fb68054a1bf2536a980d5d89a5b95e6fc632f4ff4f45",
+        "sha256_in_prefix": "b76094f907d516ed7ba3fb68054a1bf2536a980d5d89a5b95e6fc632f4ff4f45",
+        "size_in_bytes": 837
+      },
+      {
+        "_path": "site-packages/streamlit/beta_util.py",
+        "path_type": "hardlink",
+        "sha256": "7dc0d9b84bb965567416089e1578228aca3c6a7052b3db4f2b174425152be9ce",
+        "sha256_in_prefix": "7dc0d9b84bb965567416089e1578228aca3c6a7052b3db4f2b174425152be9ce",
+        "size_in_bytes": 4134
+      },
+      {
+        "_path": "site-packages/streamlit/bootstrap.py",
+        "path_type": "hardlink",
+        "sha256": "b3da2c75528f4a1dd75ed1b5d61fe02bd2c8a63c1a73943d1079bee818441c9b",
+        "sha256_in_prefix": "b3da2c75528f4a1dd75ed1b5d61fe02bd2c8a63c1a73943d1079bee818441c9b",
+        "size_in_bytes": 12616
+      },
+      {
+        "_path": "site-packages/streamlit/caching.py",
+        "path_type": "hardlink",
+        "sha256": "19cc78036c5a5a40b5c0f55de5659d95f0551b332adafb8ac0c5fb4735ce83c4",
+        "sha256_in_prefix": "19cc78036c5a5a40b5c0f55de5659d95f0551b332adafb8ac0c5fb4735ce83c4",
+        "size_in_bytes": 29754
+      },
+      {
+        "_path": "site-packages/streamlit/case_converters.py",
+        "path_type": "hardlink",
+        "sha256": "65840dea771d83d9e4b430d88c7794df6e90f0a687d69ae7e2dba3ed85bd659b",
+        "sha256_in_prefix": "65840dea771d83d9e4b430d88c7794df6e90f0a687d69ae7e2dba3ed85bd659b",
+        "size_in_bytes": 2229
+      },
+      {
+        "_path": "site-packages/streamlit/cli.py",
+        "path_type": "hardlink",
+        "sha256": "ecfe38d2ab04fa8026948b1540e38377362f4c8352e089807e5c6df092898b78",
+        "sha256_in_prefix": "ecfe38d2ab04fa8026948b1540e38377362f4c8352e089807e5c6df092898b78",
+        "size_in_bytes": 8103
+      },
+      {
+        "_path": "site-packages/streamlit/code_util.py",
+        "path_type": "hardlink",
+        "sha256": "a67f6e0c7e6a2b8124a42ca629c828eeb8cb34565ea8bf20e6ad65400596d02b",
+        "sha256_in_prefix": "a67f6e0c7e6a2b8124a42ca629c828eeb8cb34565ea8bf20e6ad65400596d02b",
+        "size_in_bytes": 2255
+      },
+      {
+        "_path": "site-packages/streamlit/commands/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/commands/page_config.py",
+        "path_type": "hardlink",
+        "sha256": "86b8f13e7e608a311021f38d04115c7ace4fd7cd3e28d852a5017c427d94c122",
+        "sha256_in_prefix": "86b8f13e7e608a311021f38d04115c7ace4fd7cd3e28d852a5017c427d94c122",
+        "size_in_bytes": 6757
+      },
+      {
+        "_path": "site-packages/streamlit/components/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/components/v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "177a27a97b5ab01edcc8d1689e2b6eb698e9c941122a104ecced88817c845984",
+        "sha256_in_prefix": "177a27a97b5ab01edcc8d1689e2b6eb698e9c941122a104ecced88817c845984",
+        "size_in_bytes": 979
+      },
+      {
+        "_path": "site-packages/streamlit/components/v1/components.py",
+        "path_type": "hardlink",
+        "sha256": "7846a11f2117503c255ecf631d92798e6925006a606f3887a1b9f7c9ee8a105f",
+        "sha256_in_prefix": "7846a11f2117503c255ecf631d92798e6925006a606f3887a1b9f7c9ee8a105f",
+        "size_in_bytes": 15888
+      },
+      {
+        "_path": "site-packages/streamlit/config.py",
+        "path_type": "hardlink",
+        "sha256": "0d21f09ed3145f5b286615f065e9d139396e4da36cce49756f678b165f5142d4",
+        "sha256_in_prefix": "0d21f09ed3145f5b286615f065e9d139396e4da36cce49756f678b165f5142d4",
+        "size_in_bytes": 35241
+      },
+      {
+        "_path": "site-packages/streamlit/config_option.py",
+        "path_type": "hardlink",
+        "sha256": "46c3f1e6578fd011ddbf17877393b411c42e6e447da5954acf459e348b900a80",
+        "sha256_in_prefix": "46c3f1e6578fd011ddbf17877393b411c42e6e447da5954acf459e348b900a80",
+        "size_in_bytes": 10486
+      },
+      {
+        "_path": "site-packages/streamlit/config_util.py",
+        "path_type": "hardlink",
+        "sha256": "031b150ecf93d9faab1b6e264f2ffaacbcea00de7508554794a16276bfec31c8",
+        "sha256_in_prefix": "031b150ecf93d9faab1b6e264f2ffaacbcea00de7508554794a16276bfec31c8",
+        "size_in_bytes": 3798
+      },
+      {
+        "_path": "site-packages/streamlit/credentials.py",
+        "path_type": "hardlink",
+        "sha256": "3515caf56bf81a5651bf30b1d4ba9b62c973d85af512d0419bd476727f07b81a",
+        "sha256_in_prefix": "3515caf56bf81a5651bf30b1d4ba9b62c973d85af512d0419bd476727f07b81a",
+        "size_in_bytes": 8525
+      },
+      {
+        "_path": "site-packages/streamlit/cursor.py",
+        "path_type": "hardlink",
+        "sha256": "0107c6216670d778ba90918b7d3df49c7ade814a83893c95c5b28ec326d64e7b",
+        "sha256_in_prefix": "0107c6216670d778ba90918b7d3df49c7ade814a83893c95c5b28ec326d64e7b",
+        "size_in_bytes": 5944
+      },
+      {
+        "_path": "site-packages/streamlit/delta_generator.py",
+        "path_type": "hardlink",
+        "sha256": "c272dea1df95d5ef5dd385c1f8b23e3e49268e94c0ad2d2aecbd0f0435de96ef",
+        "sha256_in_prefix": "c272dea1df95d5ef5dd385c1f8b23e3e49268e94c0ad2d2aecbd0f0435de96ef",
+        "size_in_bytes": 23067
+      },
+      {
+        "_path": "site-packages/streamlit/development.py",
+        "path_type": "hardlink",
+        "sha256": "87a28994b6e92d4d98a2da305a9081597f1399de7d158eee788091d5c60993eb",
+        "sha256_in_prefix": "87a28994b6e92d4d98a2da305a9081597f1399de7d158eee788091d5c60993eb",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "site-packages/streamlit/elements/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/elements/alert.py",
+        "path_type": "hardlink",
+        "sha256": "c0ef2d53abc98b924c7d8dfa271143e28370f4c7149acc7c8902d480af924143",
+        "sha256_in_prefix": "c0ef2d53abc98b924c7d8dfa271143e28370f4c7149acc7c8902d480af924143",
+        "size_in_bytes": 2681
+      },
+      {
+        "_path": "site-packages/streamlit/elements/altair.py",
+        "path_type": "hardlink",
+        "sha256": "6fbacddb483cad058444e6f2d9a68c603a995f5b33abd7a86f820c02ca53afe4",
+        "sha256_in_prefix": "6fbacddb483cad058444e6f2d9a68c603a995f5b33abd7a86f820c02ca53afe4",
+        "size_in_bytes": 11438
+      },
+      {
+        "_path": "site-packages/streamlit/elements/arrow_table.py",
+        "path_type": "hardlink",
+        "sha256": "6e02d42cf7cbfb0c5a78bb59fb1a1d92ec03510c44d6de75c487a2f86f2d0a82",
+        "sha256_in_prefix": "6e02d42cf7cbfb0c5a78bb59fb1a1d92ec03510c44d6de75c487a2f86f2d0a82",
+        "size_in_bytes": 9913
+      },
+      {
+        "_path": "site-packages/streamlit/elements/balloons.py",
+        "path_type": "hardlink",
+        "sha256": "12b2a52b6f4a9aba0ce5692d7a5e2ae8bba40b3469df0be974eb3c0f1ec3aafc",
+        "sha256_in_prefix": "12b2a52b6f4a9aba0ce5692d7a5e2ae8bba40b3469df0be974eb3c0f1ec3aafc",
+        "size_in_bytes": 1237
+      },
+      {
+        "_path": "site-packages/streamlit/elements/bokeh_chart.py",
+        "path_type": "hardlink",
+        "sha256": "8062e0c70f3ad6ef33a501c51b973963d4955489bf22e0617983e04287874a21",
+        "sha256_in_prefix": "8062e0c70f3ad6ef33a501c51b973963d4955489bf22e0617983e04287874a21",
+        "size_in_bytes": 2779
+      },
+      {
+        "_path": "site-packages/streamlit/elements/button.py",
+        "path_type": "hardlink",
+        "sha256": "bba6b66fff013f3ad643f04da13887465f01bf205c0495dc43d381eb09584fa4",
+        "sha256_in_prefix": "bba6b66fff013f3ad643f04da13887465f01bf205c0495dc43d381eb09584fa4",
+        "size_in_bytes": 3662
+      },
+      {
+        "_path": "site-packages/streamlit/elements/checkbox.py",
+        "path_type": "hardlink",
+        "sha256": "9cd27f4a87202d3ba4aad2e5cba5f565dd0ebcc4a9d7adc424deddab2e192a72",
+        "sha256_in_prefix": "9cd27f4a87202d3ba4aad2e5cba5f565dd0ebcc4a9d7adc424deddab2e192a72",
+        "size_in_bytes": 2433
+      },
+      {
+        "_path": "site-packages/streamlit/elements/color_picker.py",
+        "path_type": "hardlink",
+        "sha256": "8461b74836a1fb34433b03c305c099a06a0e0e50d57704828cfe94295da0bc3c",
+        "sha256_in_prefix": "8461b74836a1fb34433b03c305c099a06a0e0e50d57704828cfe94295da0bc3c",
+        "size_in_bytes": 3347
+      },
+      {
+        "_path": "site-packages/streamlit/elements/data_frame.py",
+        "path_type": "hardlink",
+        "sha256": "ea75804be9ad807262d7f862fd3c844e6b43167f478b3daa2c6b1f2c5dcbea3a",
+        "sha256_in_prefix": "ea75804be9ad807262d7f862fd3c844e6b43167f478b3daa2c6b1f2c5dcbea3a",
+        "size_in_bytes": 21461
+      },
+      {
+        "_path": "site-packages/streamlit/elements/deck_gl_json_chart.py",
+        "path_type": "hardlink",
+        "sha256": "254705a65fab14f0ad1f0d3ada0e708444e183f926d07b514123b09caf936eaa",
+        "sha256_in_prefix": "254705a65fab14f0ad1f0d3ada0e708444e183f926d07b514123b09caf936eaa",
+        "size_in_bytes": 4189
+      },
+      {
+        "_path": "site-packages/streamlit/elements/doc_string.py",
+        "path_type": "hardlink",
+        "sha256": "0f20f3065e80315c3354008256688ac7500f44469783c0d0378ae373957dc124",
+        "sha256_in_prefix": "0f20f3065e80315c3354008256688ac7500f44469783c0d0378ae373957dc124",
+        "size_in_bytes": 4559
+      },
+      {
+        "_path": "site-packages/streamlit/elements/empty.py",
+        "path_type": "hardlink",
+        "sha256": "1e8a50928c6fb243bc5f35fd40b82a9b1099e4c802125588c5a9ffdbadf4f4f1",
+        "sha256_in_prefix": "1e8a50928c6fb243bc5f35fd40b82a9b1099e4c802125588c5a9ffdbadf4f4f1",
+        "size_in_bytes": 2451
+      },
+      {
+        "_path": "site-packages/streamlit/elements/exception.py",
+        "path_type": "hardlink",
+        "sha256": "41df334e2041f170981cdce8609667e4d30d14cd0d5244138ab51d5dfcdece19",
+        "sha256_in_prefix": "41df334e2041f170981cdce8609667e4d30d14cd0d5244138ab51d5dfcdece19",
+        "size_in_bytes": 7099
+      },
+      {
+        "_path": "site-packages/streamlit/elements/file_uploader.py",
+        "path_type": "hardlink",
+        "sha256": "8ae37e273899e12ca4c1f21adb1ac30cb150dc568e2c0951ef9ff285d42ffb13",
+        "sha256_in_prefix": "8ae37e273899e12ca4c1f21adb1ac30cb150dc568e2c0951ef9ff285d42ffb13",
+        "size_in_bytes": 6958
+      },
+      {
+        "_path": "site-packages/streamlit/elements/form.py",
+        "path_type": "hardlink",
+        "sha256": "af56baa5987f8c884fcecfa508b33d27eeea58fa4e4bc04c8c07a3301def5046",
+        "sha256_in_prefix": "af56baa5987f8c884fcecfa508b33d27eeea58fa4e4bc04c8c07a3301def5046",
+        "size_in_bytes": 6383
+      },
+      {
+        "_path": "site-packages/streamlit/elements/graphviz_chart.py",
+        "path_type": "hardlink",
+        "sha256": "023985955a9179321c35b5832358b0ee87b564e4412d61c9f3bca9ab3d9430ca",
+        "sha256_in_prefix": "023985955a9179321c35b5832358b0ee87b564e4412d61c9f3bca9ab3d9430ca",
+        "size_in_bytes": 3820
+      },
+      {
+        "_path": "site-packages/streamlit/elements/iframe.py",
+        "path_type": "hardlink",
+        "sha256": "5d91007dcd8542ea3d157dbc7d2d8541ecee4b9f2e69876bcddc9df6de31276c",
+        "sha256_in_prefix": "5d91007dcd8542ea3d157dbc7d2d8541ecee4b9f2e69876bcddc9df6de31276c",
+        "size_in_bytes": 4093
+      },
+      {
+        "_path": "site-packages/streamlit/elements/image.py",
+        "path_type": "hardlink",
+        "sha256": "90914313f80c0d3b6885e68089ee50533cef1de69faed66e164ad82946b19c44",
+        "sha256_in_prefix": "90914313f80c0d3b6885e68089ee50533cef1de69faed66e164ad82946b19c44",
+        "size_in_bytes": 12612
+      },
+      {
+        "_path": "site-packages/streamlit/elements/json.py",
+        "path_type": "hardlink",
+        "sha256": "2360c14c707b3ea40a364a7d7b27cc12e64961c59012977af63f407c1098634e",
+        "sha256_in_prefix": "2360c14c707b3ea40a364a7d7b27cc12e64961c59012977af63f407c1098634e",
+        "size_in_bytes": 2313
+      },
+      {
+        "_path": "site-packages/streamlit/elements/layouts.py",
+        "path_type": "hardlink",
+        "sha256": "45d60376d90969a4fbaf2703967267da68ae1954f294baf16990996cc956c757",
+        "sha256_in_prefix": "45d60376d90969a4fbaf2703967267da68ae1954f294baf16990996cc956c757",
+        "size_in_bytes": 8022
+      },
+      {
+        "_path": "site-packages/streamlit/elements/lib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/elements/lib/dicttools.py",
+        "path_type": "hardlink",
+        "sha256": "fdfcf42ac1e4d5044062da774634437e801ddc9ef64f363700504c720a157b1c",
+        "sha256_in_prefix": "fdfcf42ac1e4d5044062da774634437e801ddc9ef64f363700504c720a157b1c",
+        "size_in_bytes": 3350
+      },
+      {
+        "_path": "site-packages/streamlit/elements/map.py",
+        "path_type": "hardlink",
+        "sha256": "f946bdaf28be5d3e7cc71d26972f9e46e00adfb0fc5e796c1847832652562fe9",
+        "sha256_in_prefix": "f946bdaf28be5d3e7cc71d26972f9e46e00adfb0fc5e796c1847832652562fe9",
+        "size_in_bytes": 6181
+      },
+      {
+        "_path": "site-packages/streamlit/elements/markdown.py",
+        "path_type": "hardlink",
+        "sha256": "be0e2cf3d83977fa4e1ac1d8f191e095e9187f280b21831fdf3675b9fc923587",
+        "sha256_in_prefix": "be0e2cf3d83977fa4e1ac1d8f191e095e9187f280b21831fdf3675b9fc923587",
+        "size_in_bytes": 8825
+      },
+      {
+        "_path": "site-packages/streamlit/elements/media.py",
+        "path_type": "hardlink",
+        "sha256": "059fac14389d2cb5bcf00fbaccc218cd4b23b505240f16e08f482e94806ec172",
+        "sha256_in_prefix": "059fac14389d2cb5bcf00fbaccc218cd4b23b505240f16e08f482e94806ec172",
+        "size_in_bytes": 8879
+      },
+      {
+        "_path": "site-packages/streamlit/elements/multiselect.py",
+        "path_type": "hardlink",
+        "sha256": "80da104df07a0025561e1f2b060161b78a338d69b05d0625e24458c02d885e87",
+        "sha256_in_prefix": "80da104df07a0025561e1f2b060161b78a338d69b05d0625e24458c02d885e87",
+        "size_in_bytes": 5297
+      },
+      {
+        "_path": "site-packages/streamlit/elements/number_input.py",
+        "path_type": "hardlink",
+        "sha256": "5dbb2b3bf3dd5d29be9b9c2e6641efd221164f53d4513fa117178af937c304c8",
+        "sha256_in_prefix": "5dbb2b3bf3dd5d29be9b9c2e6641efd221164f53d4513fa117178af937c304c8",
+        "size_in_bytes": 8109
+      },
+      {
+        "_path": "site-packages/streamlit/elements/plotly_chart.py",
+        "path_type": "hardlink",
+        "sha256": "0575b9b34c56108196bdb54369a8729519c4d76de7b8707a08d0c99c28fd4d71",
+        "sha256_in_prefix": "0575b9b34c56108196bdb54369a8729519c4d76de7b8707a08d0c99c28fd4d71",
+        "size_in_bytes": 6637
+      },
+      {
+        "_path": "site-packages/streamlit/elements/progress.py",
+        "path_type": "hardlink",
+        "sha256": "76a35134e17fa5d8703de3e617317651fe5c252ada5dd58c6ea030c1e7a379f6",
+        "sha256_in_prefix": "76a35134e17fa5d8703de3e617317651fe5c252ada5dd58c6ea030c1e7a379f6",
+        "size_in_bytes": 2386
+      },
+      {
+        "_path": "site-packages/streamlit/elements/pyplot.py",
+        "path_type": "hardlink",
+        "sha256": "02afce3ab84b8180b4e461fdcf2ac89dbf45fdd1305d83415b93fdd2b5f4d056",
+        "sha256_in_prefix": "02afce3ab84b8180b4e461fdcf2ac89dbf45fdd1305d83415b93fdd2b5f4d056",
+        "size_in_bytes": 5648
+      },
+      {
+        "_path": "site-packages/streamlit/elements/radio.py",
+        "path_type": "hardlink",
+        "sha256": "c128a5eb43422e52a2d9a431fd575864302db5d0ca170e0d4713863afac489bb",
+        "sha256_in_prefix": "c128a5eb43422e52a2d9a431fd575864302db5d0ca170e0d4713863afac489bb",
+        "size_in_bytes": 3802
+      },
+      {
+        "_path": "site-packages/streamlit/elements/select_slider.py",
+        "path_type": "hardlink",
+        "sha256": "9c0a19c032007f131c67451f52ca935bb6bcbafc218c29d731a61cf6e59f8747",
+        "sha256_in_prefix": "9c0a19c032007f131c67451f52ca935bb6bcbafc218c29d731a61cf6e59f8747",
+        "size_in_bytes": 5996
+      },
+      {
+        "_path": "site-packages/streamlit/elements/selectbox.py",
+        "path_type": "hardlink",
+        "sha256": "12e9da90260a9d7e19c6da412a48b67844cba5b3fec8515e473e3afe30a462b9",
+        "sha256_in_prefix": "12e9da90260a9d7e19c6da412a48b67844cba5b3fec8515e473e3afe30a462b9",
+        "size_in_bytes": 3671
+      },
+      {
+        "_path": "site-packages/streamlit/elements/slider.py",
+        "path_type": "hardlink",
+        "sha256": "2727fe90e11fb83465d15a4a236510fe363e12169df87c357470ad35988205fe",
+        "sha256_in_prefix": "2727fe90e11fb83465d15a4a236510fe363e12169df87c357470ad35988205fe",
+        "size_in_bytes": 16460
+      },
+      {
+        "_path": "site-packages/streamlit/elements/text.py",
+        "path_type": "hardlink",
+        "sha256": "13cafdd4d2c1a894814edbaf16297ee7477fcfb07e16044d76462a210f64b63a",
+        "sha256_in_prefix": "13cafdd4d2c1a894814edbaf16297ee7477fcfb07e16044d76462a210f64b63a",
+        "size_in_bytes": 1437
+      },
+      {
+        "_path": "site-packages/streamlit/elements/text_widgets.py",
+        "path_type": "hardlink",
+        "sha256": "c2dcf2dfa929baa1d7186edc582c60cc93c7f3d4cf380e7fae01d43e6f35ef03",
+        "sha256_in_prefix": "c2dcf2dfa929baa1d7186edc582c60cc93c7f3d4cf380e7fae01d43e6f35ef03",
+        "size_in_bytes": 5744
+      },
+      {
+        "_path": "site-packages/streamlit/elements/time_widgets.py",
+        "path_type": "hardlink",
+        "sha256": "2a40fca7a9159dcfde390c83d742e4044ab12c357c2a1bddb8cfdaf2d2b3fa10",
+        "sha256_in_prefix": "2a40fca7a9159dcfde390c83d742e4044ab12c357c2a1bddb8cfdaf2d2b3fa10",
+        "size_in_bytes": 6777
+      },
+      {
+        "_path": "site-packages/streamlit/elements/utils.py",
+        "path_type": "hardlink",
+        "sha256": "45b993489541ac3d8a961b5fa44957903cf95c416e2f2100fefdf291811b2a58",
+        "sha256_in_prefix": "45b993489541ac3d8a961b5fa44957903cf95c416e2f2100fefdf291811b2a58",
+        "size_in_bytes": 1039
+      },
+      {
+        "_path": "site-packages/streamlit/elements/vega_lite.py",
+        "path_type": "hardlink",
+        "sha256": "ba9191e0eab66484954ab470415f51ff5542f5e4ec168491873fb1cee3e11b53",
+        "sha256_in_prefix": "ba9191e0eab66484954ab470415f51ff5542f5e4ec168491873fb1cee3e11b53",
+        "size_in_bytes": 6256
+      },
+      {
+        "_path": "site-packages/streamlit/elements/write.py",
+        "path_type": "hardlink",
+        "sha256": "ae64bb7f41d17f170501e85cce03ea1f35b20ae7a11bdc56fd1198fb8f7553fc",
+        "sha256_in_prefix": "ae64bb7f41d17f170501e85cce03ea1f35b20ae7a11bdc56fd1198fb8f7553fc",
+        "size_in_bytes": 8991
+      },
+      {
+        "_path": "site-packages/streamlit/env_util.py",
+        "path_type": "hardlink",
+        "sha256": "b02686f10e9cceac9e99fa06f61a9dbc3469f7a399b1ca5c165763076841a01a",
+        "sha256_in_prefix": "b02686f10e9cceac9e99fa06f61a9dbc3469f7a399b1ca5c165763076841a01a",
+        "size_in_bytes": 1722
+      },
+      {
+        "_path": "site-packages/streamlit/error_util.py",
+        "path_type": "hardlink",
+        "sha256": "2338946db3f6ed2831f40dba70b27e0568881f5677551c4c09853593e65fe6c3",
+        "sha256_in_prefix": "2338946db3f6ed2831f40dba70b27e0568881f5677551c4c09853593e65fe6c3",
+        "size_in_bytes": 2400
+      },
+      {
+        "_path": "site-packages/streamlit/errors.py",
+        "path_type": "hardlink",
+        "sha256": "d813159b58e7e83938c2e692ee81ff1c7a4ebe4fb31c44e4efaef2aeaa25482c",
+        "sha256_in_prefix": "d813159b58e7e83938c2e692ee81ff1c7a4ebe4fb31c44e4efaef2aeaa25482c",
+        "size_in_bytes": 3056
+      },
+      {
+        "_path": "site-packages/streamlit/file_util.py",
+        "path_type": "hardlink",
+        "sha256": "76112c294efca671172605bb9e76cab453cb50b03e4ea6c9e225f1c52dd6d91c",
+        "sha256_in_prefix": "76112c294efca671172605bb9e76cab453cb50b03e4ea6c9e225f1c52dd6d91c",
+        "size_in_bytes": 5825
+      },
+      {
+        "_path": "site-packages/streamlit/folder_black_list.py",
+        "path_type": "hardlink",
+        "sha256": "42555962b8f385d1ddae568480c480b9848f0207d7f29cc1618b9544e14f5fc5",
+        "sha256_in_prefix": "42555962b8f385d1ddae568480c480b9848f0207d7f29cc1618b9544e14f5fc5",
+        "size_in_bytes": 2289
+      },
+      {
+        "_path": "site-packages/streamlit/forward_msg_cache.py",
+        "path_type": "hardlink",
+        "sha256": "a6e3723b8878d62b28cc6d8c94ba3745d8a70e15b1c1385de291ef278d86da37",
+        "sha256_in_prefix": "a6e3723b8878d62b28cc6d8c94ba3745d8a70e15b1c1385de291ef278d86da37",
+        "size_in_bytes": 8191
+      },
+      {
+        "_path": "site-packages/streamlit/git_util.py",
+        "path_type": "hardlink",
+        "sha256": "5b7737d94766040162035a12a7d3f72f6137ad02a667926690e81a36856bb066",
+        "sha256_in_prefix": "5b7737d94766040162035a12a7d3f72f6137ad02a667926690e81a36856bb066",
+        "size_in_bytes": 4959
+      },
+      {
+        "_path": "site-packages/streamlit/hashing.py",
+        "path_type": "hardlink",
+        "sha256": "5d21581ccb610ea541afec8439548452c5a9f00f786e44db6c4836905a7c5b77",
+        "sha256_in_prefix": "5d21581ccb610ea541afec8439548452c5a9f00f786e44db6c4836905a7c5b77",
+        "size_in_bytes": 33840
+      },
+      {
+        "_path": "site-packages/streamlit/hello/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/hello/demos.py",
+        "path_type": "hardlink",
+        "sha256": "9f2db2e652a10674693cac4095c17ea886362e9606347f015297cc3b98f55cca",
+        "sha256_in_prefix": "9f2db2e652a10674693cac4095c17ea886362e9606347f015297cc3b98f55cca",
+        "size_in_bytes": 8782
+      },
+      {
+        "_path": "site-packages/streamlit/hello/hello.py",
+        "path_type": "hardlink",
+        "sha256": "bcc80e5925851cbead5f3fcbf3d363a4f0bf5cbbbb24fbf8d91153dbadbbe97f",
+        "sha256_in_prefix": "bcc80e5925851cbead5f3fcbf3d363a4f0bf5cbbbb24fbf8d91153dbadbbe97f",
+        "size_in_bytes": 2932
+      },
+      {
+        "_path": "site-packages/streamlit/js_number.py",
+        "path_type": "hardlink",
+        "sha256": "3b5006db915d440fde3a1c7f8e6bbd827658c5b8e9feb65c5a8a2d61c7e22b3e",
+        "sha256_in_prefix": "3b5006db915d440fde3a1c7f8e6bbd827658c5b8e9feb65c5a8a2d61c7e22b3e",
+        "size_in_bytes": 3756
+      },
+      {
+        "_path": "site-packages/streamlit/logger.py",
+        "path_type": "hardlink",
+        "sha256": "b32af774929884d4075a9de926612455d3414a1accb61b25ee836c481ec0e578",
+        "sha256_in_prefix": "b32af774929884d4075a9de926612455d3414a1accb61b25ee836c481ec0e578",
+        "size_in_bytes": 3801
+      },
+      {
+        "_path": "site-packages/streamlit/magic.py",
+        "path_type": "hardlink",
+        "sha256": "01bbfe11456f1747d3a4f93ea89907ce37aa2a029764b780747a4f12f38b2116",
+        "sha256_in_prefix": "01bbfe11456f1747d3a4f93ea89907ce37aa2a029764b780747a4f12f38b2116",
+        "size_in_bytes": 5563
+      },
+      {
+        "_path": "site-packages/streamlit/media_file_manager.py",
+        "path_type": "hardlink",
+        "sha256": "2f4fcac768f090a485a7453abb7c2f6d05bc5968b1281d9699c9edce658e4c5f",
+        "sha256_in_prefix": "2f4fcac768f090a485a7453abb7c2f6d05bc5968b1281d9699c9edce658e4c5f",
+        "size_in_bytes": 8249
+      },
+      {
+        "_path": "site-packages/streamlit/metrics.py",
+        "path_type": "hardlink",
+        "sha256": "0c5da4211f34e2208a615c147f6fd132ea64321aedb1948ab3364bb09bb90da8",
+        "sha256_in_prefix": "0c5da4211f34e2208a615c147f6fd132ea64321aedb1948ab3364bb09bb90da8",
+        "size_in_bytes": 2837
+      },
+      {
+        "_path": "site-packages/streamlit/metrics_util.py",
+        "path_type": "hardlink",
+        "sha256": "e6079edeadbe66fe8b5c78d297d517e3c3236dbb60d373d5295b3d6587a862f6",
+        "sha256_in_prefix": "e6079edeadbe66fe8b5c78d297d517e3c3236dbb60d373d5295b3d6587a862f6",
+        "size_in_bytes": 4939
+      },
+      {
+        "_path": "site-packages/streamlit/net_util.py",
+        "path_type": "hardlink",
+        "sha256": "3be01f7f5ad4096cd8ee2862c6dc5b1fae64b65018ecf3e9f7f9d9e20d662cf0",
+        "sha256_in_prefix": "3be01f7f5ad4096cd8ee2862c6dc5b1fae64b65018ecf3e9f7f9d9e20d662cf0",
+        "size_in_bytes": 2960
+      },
+      {
+        "_path": "site-packages/streamlit/policy.py",
+        "path_type": "hardlink",
+        "sha256": "debaeeb5ad21ff53eb6739c4925878082555f572f1755777c122f2d85e7d6977",
+        "sha256_in_prefix": "debaeeb5ad21ff53eb6739c4925878082555f572f1755777c122f2d85e7d6977",
+        "size_in_bytes": 2721
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Alert_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "050b52277b3963d38838441dbdff9e5a4e6fdaf48b2b3865346bb75702804baa",
+        "sha256_in_prefix": "050b52277b3963d38838441dbdff9e5a4e6fdaf48b2b3865346bb75702804baa",
+        "size_in_bytes": 3891
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ArrowDataframe_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1076020e311b89010393d354c7503848d17a7b38c46d9f18e6b4f661ed4a5eff",
+        "sha256_in_prefix": "1076020e311b89010393d354c7503848d17a7b38c46d9f18e6b4f661ed4a5eff",
+        "size_in_bytes": 3266
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ArrowTable_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "12a34e6c9065f263eaf07d9fcd23d888f8a7f80a5886f0e36b4d4ed4f6d56cbb",
+        "sha256_in_prefix": "12a34e6c9065f263eaf07d9fcd23d888f8a7f80a5886f0e36b4d4ed4f6d56cbb",
+        "size_in_bytes": 5911
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Audio_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "28772b24ff627db6bf517979be171eca827be92c91184d31c7187f4a009564dc",
+        "sha256_in_prefix": "28772b24ff627db6bf517979be171eca827be92c91184d31c7187f4a009564dc",
+        "size_in_bytes": 2472
+      },
+      {
+        "_path": "site-packages/streamlit/proto/BackMsg_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b5a7e57cb48553150e75a5d011ffc4ff4b5ab7588b8ed627137be5b1c46e9811",
+        "sha256_in_prefix": "b5a7e57cb48553150e75a5d011ffc4ff4b5ab7588b8ed627137be5b1c46e9811",
+        "size_in_bytes": 6669
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Balloons_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4b7d9131b59d1277d59ce5019c1cfaf1517e4ee12b77d39233e5105feb2c0c49",
+        "sha256_in_prefix": "4b7d9131b59d1277d59ce5019c1cfaf1517e4ee12b77d39233e5105feb2c0c49",
+        "size_in_bytes": 2030
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Block_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "e0e206d0fe50dc40f8c150903200820de65a7c3df37c67ad0d00ad48b96aa3d1",
+        "sha256_in_prefix": "e0e206d0fe50dc40f8c150903200820de65a7c3df37c67ad0d00ad48b96aa3d1",
+        "size_in_bytes": 10392
+      },
+      {
+        "_path": "site-packages/streamlit/proto/BokehChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "3b906b9fb384b0674d39151e745d6a233f8d3cc88be74f945d41a2f2ba46ba7a",
+        "sha256_in_prefix": "3b906b9fb384b0674d39151e745d6a233f8d3cc88be74f945d41a2f2ba46ba7a",
+        "size_in_bytes": 2504
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Button_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "e2875e10d0618ab74235baad59cc473be44356ba5d01d28a7e358c8218bb09e0",
+        "sha256_in_prefix": "e2875e10d0618ab74235baad59cc473be44356ba5d01d28a7e358c8218bb09e0",
+        "size_in_bytes": 4192
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Checkbox_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "92237882ff99d105762df35866751b0e739062ed5732f41b48c374991ecdc9eb",
+        "sha256_in_prefix": "92237882ff99d105762df35866751b0e739062ed5732f41b48c374991ecdc9eb",
+        "size_in_bytes": 3765
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ClientState_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "6835e4bf46d37ce38582190c8f77d9f46cff26959b762db147f441fa8eb32402",
+        "sha256_in_prefix": "6835e4bf46d37ce38582190c8f77d9f46cff26959b762db147f441fa8eb32402",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ColorPicker_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d13b0563da4d0d4201692206ca47441654ab51732e56795d1c2a50eeb3473d1d",
+        "sha256_in_prefix": "d13b0563da4d0d4201692206ca47441654ab51732e56795d1c2a50eeb3473d1d",
+        "size_in_bytes": 3834
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Common_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "812eb27d0b03a8b55f9b8e86480dc0303ce74f5ae634a5f79712031dd90cd94f",
+        "sha256_in_prefix": "812eb27d0b03a8b55f9b8e86480dc0303ce74f5ae634a5f79712031dd90cd94f",
+        "size_in_bytes": 8053
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ComponentInstance_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "08a89157e1d15defe73690e83e1ff97ca373b3f41919e7b641592170ae4f9dad",
+        "sha256_in_prefix": "08a89157e1d15defe73690e83e1ff97ca373b3f41919e7b641592170ae4f9dad",
+        "size_in_bytes": 7599
+      },
+      {
+        "_path": "site-packages/streamlit/proto/DataFrame_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b36f3427f9182be03d837605e257dee3a640385edc02e33d2c8400eed1701c6b",
+        "sha256_in_prefix": "b36f3427f9182be03d837605e257dee3a640385edc02e33d2c8400eed1701c6b",
+        "size_in_bytes": 32183
+      },
+      {
+        "_path": "site-packages/streamlit/proto/DateInput_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "709e630eebeeee24b3653e76b8c21254bf770bc996fd672c6936111470964b5e",
+        "sha256_in_prefix": "709e630eebeeee24b3653e76b8c21254bf770bc996fd672c6936111470964b5e",
+        "size_in_bytes": 5096
+      },
+      {
+        "_path": "site-packages/streamlit/proto/DeckGlJsonChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "05d5878943b90d48a2785eb1e55adee99b416f1b9498a34870d63f99a6540ec0",
+        "sha256_in_prefix": "05d5878943b90d48a2785eb1e55adee99b416f1b9498a34870d63f99a6540ec0",
+        "size_in_bytes": 3047
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Delta_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "79b8004f6d38b67ea7d6113293d4eceb324e218c3d40b55a0571a9acf7e533e5",
+        "sha256_in_prefix": "79b8004f6d38b67ea7d6113293d4eceb324e218c3d40b55a0571a9acf7e533e5",
+        "size_in_bytes": 4428
+      },
+      {
+        "_path": "site-packages/streamlit/proto/DocString_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "75647e3795323429c9455ab416396f4a52b11d906012c3f37e27848bcaa82c91",
+        "sha256_in_prefix": "75647e3795323429c9455ab416396f4a52b11d906012c3f37e27848bcaa82c91",
+        "size_in_bytes": 3801
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Element_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ea411f8b1137d63ed1734fa92d2547ddd82b57be4bafb3b28e83bb759f25e8c0",
+        "sha256_in_prefix": "ea411f8b1137d63ed1734fa92d2547ddd82b57be4bafb3b28e83bb759f25e8c0",
+        "size_in_bytes": 33474
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Empty_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "932413c6b12b4d7d15fe4d25c30da4f5475af5db2809b3806a845affb675fb76",
+        "sha256_in_prefix": "932413c6b12b4d7d15fe4d25c30da4f5475af5db2809b3806a845affb675fb76",
+        "size_in_bytes": 1513
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Exception_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "834d34f695c819a620ed60de615634f5f8e16bb1f14028ee9747aa86fdd88caf",
+        "sha256_in_prefix": "834d34f695c819a620ed60de615634f5f8e16bb1f14028ee9747aa86fdd88caf",
+        "size_in_bytes": 3819
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Favicon_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "f0a0fb12e916ab92681c35bb554ae37be8e11dcde320cb7ef715346532b0a677",
+        "sha256_in_prefix": "f0a0fb12e916ab92681c35bb554ae37be8e11dcde320cb7ef715346532b0a677",
+        "size_in_bytes": 1981
+      },
+      {
+        "_path": "site-packages/streamlit/proto/FileUploader_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4e324334a428335e3e50b7c2b5931d9267857efcd919c9d0df7ed5e8c3bd62e0",
+        "sha256_in_prefix": "4e324334a428335e3e50b7c2b5931d9267857efcd919c9d0df7ed5e8c3bd62e0",
+        "size_in_bytes": 4778
+      },
+      {
+        "_path": "site-packages/streamlit/proto/ForwardMsg_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "dd08c373dca64db2ff2e63985d9507aaccbf1b453a73225609adede3272c4183",
+        "sha256_in_prefix": "dd08c373dca64db2ff2e63985d9507aaccbf1b453a73225609adede3272c4183",
+        "size_in_bytes": 17489
+      },
+      {
+        "_path": "site-packages/streamlit/proto/GitInfo_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "6b16d6ee82fe237f9086cb26303c8cf0e29436cc7fbcb05ad9274e22f3aef2a9",
+        "sha256_in_prefix": "6b16d6ee82fe237f9086cb26303c8cf0e29436cc7fbcb05ad9274e22f3aef2a9",
+        "size_in_bytes": 5420
+      },
+      {
+        "_path": "site-packages/streamlit/proto/GraphVizChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d46d6952d164e16020361b51c39b65f20094b774f9e6d4352bf3912ca485ed3b",
+        "sha256_in_prefix": "d46d6952d164e16020361b51c39b65f20094b774f9e6d4352bf3912ca485ed3b",
+        "size_in_bytes": 2589
+      },
+      {
+        "_path": "site-packages/streamlit/proto/IFrame_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b56985f7b8e97094e995128eaa82402008c99f8a71c43195096f311edcfa20bb",
+        "sha256_in_prefix": "b56985f7b8e97094e995128eaa82402008c99f8a71c43195096f311edcfa20bb",
+        "size_in_bytes": 4670
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Image_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "c94e3f7e94e6acb494b429af0575334bb7537df1d0b91fe36ea0db66813a49d1",
+        "sha256_in_prefix": "c94e3f7e94e6acb494b429af0575334bb7537df1d0b91fe36ea0db66813a49d1",
+        "size_in_bytes": 4546
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Json_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "475033e856b7a4595538d2a824c112ed7522b863555ad6192037b2e16e8d748d",
+        "sha256_in_prefix": "475033e856b7a4595538d2a824c112ed7522b863555ad6192037b2e16e8d748d",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Markdown_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "70a6f5e49b5af6f4e08068ed823a36ac52d70456ec22663d8ca3fd31b91a13f9",
+        "sha256_in_prefix": "70a6f5e49b5af6f4e08068ed823a36ac52d70456ec22663d8ca3fd31b91a13f9",
+        "size_in_bytes": 2883
+      },
+      {
+        "_path": "site-packages/streamlit/proto/MultiSelect_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0dccd7e134d482da46ede1707eaa832232f0590f24d2fd3340afca9ade7d2811",
+        "sha256_in_prefix": "0dccd7e134d482da46ede1707eaa832232f0590f24d2fd3340afca9ade7d2811",
+        "size_in_bytes": 4250
+      },
+      {
+        "_path": "site-packages/streamlit/proto/NamedDataSet_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "ea738be36f161481e74101984698e9d296198215159e14e5c1407965d89f4d31",
+        "sha256_in_prefix": "ea738be36f161481e74101984698e9d296198215159e14e5c1407965d89f4d31",
+        "size_in_bytes": 3247
+      },
+      {
+        "_path": "site-packages/streamlit/proto/NewReport_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "f8891b92224807f5455881281de85043f3094695bb73c1fd025dc291d25207ee",
+        "sha256_in_prefix": "f8891b92224807f5455881281de85043f3094695bb73c1fd025dc291d25207ee",
+        "size_in_bytes": 22035
+      },
+      {
+        "_path": "site-packages/streamlit/proto/NumberInput_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "a7a273e7a09c25a5098a9444d9b35127b789eb9c236a8cad66dbdb044ae1c824",
+        "sha256_in_prefix": "a7a273e7a09c25a5098a9444d9b35127b789eb9c236a8cad66dbdb044ae1c824",
+        "size_in_bytes": 7992
+      },
+      {
+        "_path": "site-packages/streamlit/proto/PageConfig_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b278835f14974cb576234e34a50528baabbad992cc930a5623335902287f35f7",
+        "sha256_in_prefix": "b278835f14974cb576234e34a50528baabbad992cc930a5623335902287f35f7",
+        "size_in_bytes": 5563
+      },
+      {
+        "_path": "site-packages/streamlit/proto/PageInfo_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "fb61148daa081db7b425a0f566d2536d2c763f561d9d0f190f633320315db476",
+        "sha256_in_prefix": "fb61148daa081db7b425a0f566d2536d2c763f561d9d0f190f633320315db476",
+        "size_in_bytes": 2015
+      },
+      {
+        "_path": "site-packages/streamlit/proto/PlotlyChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "fcb603c75a22b81f94955ace2d95b220df8117528022cff4b7050ef4ea5c705a",
+        "sha256_in_prefix": "fcb603c75a22b81f94955ace2d95b220df8117528022cff4b7050ef4ea5c705a",
+        "size_in_bytes": 5267
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Progress_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "d2e6cba3e03dc480de8478e7fc9b956d1b2a242d02586f9e63fdda4e01ecba9c",
+        "sha256_in_prefix": "d2e6cba3e03dc480de8478e7fc9b956d1b2a242d02586f9e63fdda4e01ecba9c",
+        "size_in_bytes": 1978
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Radio_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "b318c2a2df9aa8ef437ddf0605a03eac61c98a2ccf9c0e42b88e0a69776516c5",
+        "sha256_in_prefix": "b318c2a2df9aa8ef437ddf0605a03eac61c98a2ccf9c0e42b88e0a69776516c5",
+        "size_in_bytes": 4126
+      },
+      {
+        "_path": "site-packages/streamlit/proto/RootContainer_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "810a6afa05a1f862532ada9bbfde761e5fc27bab8d4f3eb6d1c2da1294d37b75",
+        "sha256_in_prefix": "810a6afa05a1f862532ada9bbfde761e5fc27bab8d4f3eb6d1c2da1294d37b75",
+        "size_in_bytes": 1797
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Selectbox_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "143fff9f69698ae7b246d70fb382ae5d3bc30af3b5f14ed7611146135257ac67",
+        "sha256_in_prefix": "143fff9f69698ae7b246d70fb382ae5d3bc30af3b5f14ed7611146135257ac67",
+        "size_in_bytes": 4208
+      },
+      {
+        "_path": "site-packages/streamlit/proto/SessionEvent_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "41b4b28d556c450d69ea08f43d9be7923a849001982d038fe1412ff5edfaaf8a",
+        "sha256_in_prefix": "41b4b28d556c450d69ea08f43d9be7923a849001982d038fe1412ff5edfaaf8a",
+        "size_in_bytes": 4342
+      },
+      {
+        "_path": "site-packages/streamlit/proto/SessionState_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "06d689b532befc1e7095d26843c8d22ac572f4aa55a2a19df391ea9119642879",
+        "sha256_in_prefix": "06d689b532befc1e7095d26843c8d22ac572f4aa55a2a19df391ea9119642879",
+        "size_in_bytes": 2536
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Slider_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "c9c7100b637f5d4b575d473a31a0eeb4cf822bb5f789bc0c6c09c57b0a59a04b",
+        "sha256_in_prefix": "c9c7100b637f5d4b575d473a31a0eeb4cf822bb5f789bc0c6c09c57b0a59a04b",
+        "size_in_bytes": 7861
+      },
+      {
+        "_path": "site-packages/streamlit/proto/StaticManifest_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "5120f63ff2dba570eb5eda4f66b2dead08d287f10eb44c2b8030c2268f6bcca2",
+        "sha256_in_prefix": "5120f63ff2dba570eb5eda4f66b2dead08d287f10eb44c2b8030c2268f6bcca2",
+        "size_in_bytes": 6456
+      },
+      {
+        "_path": "site-packages/streamlit/proto/TextArea_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "9c2c8d9d4a3e6082e8337c8c55d58e25671a77f4e524dea4abd6f94306717413",
+        "sha256_in_prefix": "9c2c8d9d4a3e6082e8337c8c55d58e25671a77f4e524dea4abd6f94306717413",
+        "size_in_bytes": 4637
+      },
+      {
+        "_path": "site-packages/streamlit/proto/TextInput_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "922dbf557b4886268c626d984d88a59baeb070e86acd6aef3c2d18c4b078125c",
+        "sha256_in_prefix": "922dbf557b4886268c626d984d88a59baeb070e86acd6aef3c2d18c4b078125c",
+        "size_in_bytes": 5593
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Text_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "1b8e847d46ecb0dad3b0b4718d8e8e13f54811ebcabaef0cc220f4bb4c59f65d",
+        "sha256_in_prefix": "1b8e847d46ecb0dad3b0b4718d8e8e13f54811ebcabaef0cc220f4bb4c59f65d",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/streamlit/proto/TimeInput_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "281365c52969b7101f26b3061e3a732bd6b672dcafa253c337d960b6c7eb33c8",
+        "sha256_in_prefix": "281365c52969b7101f26b3061e3a732bd6b672dcafa253c337d960b6c7eb33c8",
+        "size_in_bytes": 3792
+      },
+      {
+        "_path": "site-packages/streamlit/proto/VegaLiteChart_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "4068370b4b26e0f15e1b0db498ac4e98ec7b51785a102177069956e60e96e609",
+        "sha256_in_prefix": "4068370b4b26e0f15e1b0db498ac4e98ec7b51785a102177069956e60e96e609",
+        "size_in_bytes": 4085
+      },
+      {
+        "_path": "site-packages/streamlit/proto/Video_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "0676a41c6d5f710ab36cf524e1782c0902b0b08279114812de6137acf9e4049f",
+        "sha256_in_prefix": "0676a41c6d5f710ab36cf524e1782c0902b0b08279114812de6137acf9e4049f",
+        "size_in_bytes": 3990
+      },
+      {
+        "_path": "site-packages/streamlit/proto/WidgetStates_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "e60c5b870c32e936e388913d64712fe2905d96ec3d24746b2d2ec18b1b1bcd8e",
+        "sha256_in_prefix": "e60c5b870c32e936e388913d64712fe2905d96ec3d24746b2d2ec18b1b1bcd8e",
+        "size_in_bytes": 11750
+      },
+      {
+        "_path": "site-packages/streamlit/proto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1c54933c5e7c1a72798571d7911158887cb169a77e5b17b8ad62212af61f2b93",
+        "sha256_in_prefix": "1c54933c5e7c1a72798571d7911158887cb169a77e5b17b8ad62212af61f2b93",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/streamlit/report.py",
+        "path_type": "hardlink",
+        "sha256": "2953eb75e1b55f43da9a4e61f5d195dbbbe110535f0d86292060045c4f998bca",
+        "sha256_in_prefix": "2953eb75e1b55f43da9a4e61f5d195dbbbe110535f0d86292060045c4f998bca",
+        "size_in_bytes": 9050
+      },
+      {
+        "_path": "site-packages/streamlit/report_queue.py",
+        "path_type": "hardlink",
+        "sha256": "efb35c3008f861100176e75f9e53f6f190a3add368f3ff675b0523ad81db4625",
+        "sha256_in_prefix": "efb35c3008f861100176e75f9e53f6f190a3add368f3ff675b0523ad81db4625",
+        "size_in_bytes": 4712
+      },
+      {
+        "_path": "site-packages/streamlit/report_session.py",
+        "path_type": "hardlink",
+        "sha256": "ee1188ef66f41a69b02e1df3f3937b705f27bb261253e99247ab994c14211a8e",
+        "sha256_in_prefix": "ee1188ef66f41a69b02e1df3f3937b705f27bb261253e99247ab994c14211a8e",
+        "size_in_bytes": 26059
+      },
+      {
+        "_path": "site-packages/streamlit/report_thread.py",
+        "path_type": "hardlink",
+        "sha256": "c856d4e8a99c99f0259b7a29fd966ba158a14e0faac7a0769f14376b463dcf49",
+        "sha256_in_prefix": "c856d4e8a99c99f0259b7a29fd966ba158a14e0faac7a0769f14376b463dcf49",
+        "size_in_bytes": 7759
+      },
+      {
+        "_path": "site-packages/streamlit/script_request_queue.py",
+        "path_type": "hardlink",
+        "sha256": "3164cfbe9cd7a66d6b3a2302bd7f3a2e37258e2488c66b22cb8b4364691ed97c",
+        "sha256_in_prefix": "3164cfbe9cd7a66d6b3a2302bd7f3a2e37258e2488c66b22cb8b4364691ed97c",
+        "size_in_bytes": 5572
+      },
+      {
+        "_path": "site-packages/streamlit/script_runner.py",
+        "path_type": "hardlink",
+        "sha256": "d91c2813170211ccffda372b13640ebe8f1108fa6e06067e50670fab53a82176",
+        "sha256_in_prefix": "d91c2813170211ccffda372b13640ebe8f1108fa6e06067e50670fab53a82176",
+        "size_in_bytes": 15963
+      },
+      {
+        "_path": "site-packages/streamlit/secrets.py",
+        "path_type": "hardlink",
+        "sha256": "ff5e516e5acf34c16796277ab4fc54463bfec84cef3cb7b9e6f3e68afb85e003",
+        "sha256_in_prefix": "ff5e516e5acf34c16796277ab4fc54463bfec84cef3cb7b9e6f3e68afb85e003",
+        "size_in_bytes": 5673
+      },
+      {
+        "_path": "site-packages/streamlit/server/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/server/routes.py",
+        "path_type": "hardlink",
+        "sha256": "618860848d5783fa8dff8bd1d5c57f904b825e8ac8474f0e040d711535a68a98",
+        "sha256_in_prefix": "618860848d5783fa8dff8bd1d5c57f904b825e8ac8474f0e040d711535a68a98",
+        "size_in_bytes": 8822
+      },
+      {
+        "_path": "site-packages/streamlit/server/server.py",
+        "path_type": "hardlink",
+        "sha256": "6221ad62a93a95d1097b7e04a75f501e79269da8e7e71a6e84cf317dd0cf489e",
+        "sha256_in_prefix": "6221ad62a93a95d1097b7e04a75f501e79269da8e7e71a6e84cf317dd0cf489e",
+        "size_in_bytes": 24294
+      },
+      {
+        "_path": "site-packages/streamlit/server/server_util.py",
+        "path_type": "hardlink",
+        "sha256": "01b8b7c9029ccb95f0e80856dfb577a7f17092a17f43a497915e4b0f78a87d6e",
+        "sha256_in_prefix": "01b8b7c9029ccb95f0e80856dfb577a7f17092a17f43a497915e4b0f78a87d6e",
+        "size_in_bytes": 4698
+      },
+      {
+        "_path": "site-packages/streamlit/server/upload_file_request_handler.py",
+        "path_type": "hardlink",
+        "sha256": "01082de1ca52fe065231186f674cc8d131632821dd1460188c53687925de30c6",
+        "sha256_in_prefix": "01082de1ca52fe065231186f674cc8d131632821dd1460188c53687925de30c6",
+        "size_in_bytes": 6215
+      },
+      {
+        "_path": "site-packages/streamlit/source_util.py",
+        "path_type": "hardlink",
+        "sha256": "9efc4aa899a5c96e98b5046450b29dda153d6f089c986b35899c8fa6d433b6ee",
+        "sha256_in_prefix": "9efc4aa899a5c96e98b5046450b29dda153d6f089c986b35899c8fa6d433b6ee",
+        "size_in_bytes": 1207
+      },
+      {
+        "_path": "site-packages/streamlit/static/asset-manifest.json",
+        "path_type": "hardlink",
+        "sha256": "40309fba9c2a0914f4bc3a6b6342a8a933ff60ae1ea617b1dd53d07f5782a646",
+        "sha256_in_prefix": "40309fba9c2a0914f4bc3a6b6342a8a933ff60ae1ea617b1dd53d07f5782a646",
+        "size_in_bytes": 8958
+      },
+      {
+        "_path": "site-packages/streamlit/static/assets/streamlit.css",
+        "path_type": "hardlink",
+        "sha256": "599088d43a85ea778e83217d804c98d83334522de30127dd3ee602da0c503d3a",
+        "sha256_in_prefix": "599088d43a85ea778e83217d804c98d83334522de30127dd3ee602da0c503d3a",
+        "size_in_bytes": 20637
+      },
+      {
+        "_path": "site-packages/streamlit/static/favicon.png",
+        "path_type": "hardlink",
+        "sha256": "89fe5c560c3b6b3c4a3af5791691a2c606bb24b9f6deb7e71dccb509d588d7e1",
+        "sha256_in_prefix": "89fe5c560c3b6b3c4a3af5791691a2c606bb24b9f6deb7e71dccb509d588d7e1",
+        "size_in_bytes": 1019
+      },
+      {
+        "_path": "site-packages/streamlit/static/index.html",
+        "path_type": "hardlink",
+        "sha256": "45c0bba0475b68b81be9ed89f04a1f85161a8d30b25e0becb1673dc076eedc93",
+        "sha256_in_prefix": "45c0bba0475b68b81be9ed89f04a1f85161a8d30b25e0becb1673dc076eedc93",
+        "size_in_bytes": 4834
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/css/5.16640d1b.chunk.css",
+        "path_type": "hardlink",
+        "sha256": "2d095351264eb35d503a0b1c18589469542961409e103b847f3c9e8c3bc177cb",
+        "sha256_in_prefix": "2d095351264eb35d503a0b1c18589469542961409e103b847f3c9e8c3bc177cb",
+        "size_in_bytes": 23489
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/css/6.bc8fb8fc.chunk.css",
+        "path_type": "hardlink",
+        "sha256": "04a125f08ab762bd3a64ef10be628db0412b08e6c0cd6ffed37fcf88d800d564",
+        "sha256_in_prefix": "04a125f08ab762bd3a64ef10be628db0412b08e6c0cd6ffed37fcf88d800d564",
+        "size_in_bytes": 34188
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/css/main.e190763c.chunk.css",
+        "path_type": "hardlink",
+        "sha256": "ecfbabb79b84a57e90a9709e3082505e601edf30b35cff8ff99723020db8e4b5",
+        "sha256_in_prefix": "ecfbabb79b84a57e90a9709e3082505e601edf30b35cff8ff99723020db8e4b5",
+        "size_in_bytes": 3397
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/0.82b5f4d5.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "be124bd984c40d602f755462bdfd1be80e307b1d42760571926f260f49280110",
+        "sha256_in_prefix": "be124bd984c40d602f755462bdfd1be80e307b1d42760571926f260f49280110",
+        "size_in_bytes": 19660
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/1.129f910d.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "e90d917053c3012696722cf479f3b4f31961422ed470a533dbdcfd36c7515746",
+        "sha256_in_prefix": "e90d917053c3012696722cf479f3b4f31961422ed470a533dbdcfd36c7515746",
+        "size_in_bytes": 78512
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/10.d6e51b1b.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "aad788f1354719cee3f5acf32f1fb175961daf11a1ac749810476e540c086483",
+        "sha256_in_prefix": "aad788f1354719cee3f5acf32f1fb175961daf11a1ac749810476e540c086483",
+        "size_in_bytes": 1478498
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/10.d6e51b1b.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "fa70c61de81f24f0902fa5eaffe8318563b2be529d2b1cd5e3876111c98aa1be",
+        "sha256_in_prefix": "fa70c61de81f24f0902fa5eaffe8318563b2be529d2b1cd5e3876111c98aa1be",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/11.985844df.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "ce8ab9405cb952e0f831ae7cd04114b1c957ab4a087d6e28949938618a00733b",
+        "sha256_in_prefix": "ce8ab9405cb952e0f831ae7cd04114b1c957ab4a087d6e28949938618a00733b",
+        "size_in_bytes": 3913
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/12.1f2720bc.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "c0b1e2b36cbb834340ef6fd2785650ddc2b6ad125460c2151fdfa5bdad253af3",
+        "sha256_in_prefix": "c0b1e2b36cbb834340ef6fd2785650ddc2b6ad125460c2151fdfa5bdad253af3",
+        "size_in_bytes": 7524
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/12.1f2720bc.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/13.e72c8946.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "2fcacdddc817fa9d2900004b76d7a2a6ddcd06adfceb650fde69a40cbadb2121",
+        "sha256_in_prefix": "2fcacdddc817fa9d2900004b76d7a2a6ddcd06adfceb650fde69a40cbadb2121",
+        "size_in_bytes": 66224
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/13.e72c8946.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/14.cdbe655d.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "1f5b03855236293253f21772bfb25661bbf9e301e1647c045bb8beaf7a33e134",
+        "sha256_in_prefix": "1f5b03855236293253f21772bfb25661bbf9e301e1647c045bb8beaf7a33e134",
+        "size_in_bytes": 28848
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/15.6e16b12a.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "e0e63a9f5899f1baffae23b6a7807848d729440c1106b4a3cafec1466671b625",
+        "sha256_in_prefix": "e0e63a9f5899f1baffae23b6a7807848d729440c1106b4a3cafec1466671b625",
+        "size_in_bytes": 1348
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/15.6e16b12a.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/16.9e8aa4ff.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "9cb7f0ee1f8f3bed7e9860387f2bb8eb0ff286b95152eb42ce22c8699be2f454",
+        "sha256_in_prefix": "9cb7f0ee1f8f3bed7e9860387f2bb8eb0ff286b95152eb42ce22c8699be2f454",
+        "size_in_bytes": 13545
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/16.9e8aa4ff.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/17.95c13c9f.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "baf8d3608e5f49d44c1a55d656f9ebdfd9c27c6af73e55f196aec79ff204810e",
+        "sha256_in_prefix": "baf8d3608e5f49d44c1a55d656f9ebdfd9c27c6af73e55f196aec79ff204810e",
+        "size_in_bytes": 86224
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/18.c21ab356.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "5e1c0b0eeb1fa92c1f4949f0241b5ad8f95f9333efc9c81d3d172a6dbd577ea0",
+        "sha256_in_prefix": "5e1c0b0eeb1fa92c1f4949f0241b5ad8f95f9333efc9c81d3d172a6dbd577ea0",
+        "size_in_bytes": 7160
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/19.b0df58dc.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "6acf409bbec4e80a868ca610a6f124dfa4d992f1fb3e7d3b9358d8cf3e9383ba",
+        "sha256_in_prefix": "6acf409bbec4e80a868ca610a6f124dfa4d992f1fb3e7d3b9358d8cf3e9383ba",
+        "size_in_bytes": 3491377
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/19.b0df58dc.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "32dc3f4b8a800b55e275825864631a549881570f71acfed60457fc5137e1e89d",
+        "sha256_in_prefix": "32dc3f4b8a800b55e275825864631a549881570f71acfed60457fc5137e1e89d",
+        "size_in_bytes": 1580
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/2.0a75beb9.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "3b4784293561f374ac4e576712a29aacafb8041e0bf705db11e150c2563cf980",
+        "sha256_in_prefix": "3b4784293561f374ac4e576712a29aacafb8041e0bf705db11e150c2563cf980",
+        "size_in_bytes": 21269
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/2.0a75beb9.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "8d0f1e937c389e1eb581f0c4c4c9497c6a6a144c6a98bfbe490705e40b350147",
+        "sha256_in_prefix": "8d0f1e937c389e1eb581f0c4c4c9497c6a6a144c6a98bfbe490705e40b350147",
+        "size_in_bytes": 145
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/20.ba137896.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "a85d9bc75108d9bf14e5bd46ff2ad1eabd2e1e04b2e71dadc7f95c42b5dcbe19",
+        "sha256_in_prefix": "a85d9bc75108d9bf14e5bd46ff2ad1eabd2e1e04b2e71dadc7f95c42b5dcbe19",
+        "size_in_bytes": 1713
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/20.ba137896.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/21.dc7e80a7.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "e7f1869112725bed1d2facdc45d57b7248cd7e8cd5decdf30b2c94c4a3f11eb2",
+        "sha256_in_prefix": "e7f1869112725bed1d2facdc45d57b7248cd7e8cd5decdf30b2c94c4a3f11eb2",
+        "size_in_bytes": 7447
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/22.c04fa65a.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "c4f1cab978287cebe41dc1683d9859039ffd32187b7914731557b03bd4e7deb3",
+        "sha256_in_prefix": "c4f1cab978287cebe41dc1683d9859039ffd32187b7914731557b03bd4e7deb3",
+        "size_in_bytes": 27792
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/23.cdc10ce2.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "442a2d86445a2f19f388c74a02832f3dcc2be96dc2775f30fff6c916a4d0392d",
+        "sha256_in_prefix": "442a2d86445a2f19f388c74a02832f3dcc2be96dc2775f30fff6c916a4d0392d",
+        "size_in_bytes": 616
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/23.cdc10ce2.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/24.1ef414d0.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "5430640f602347df5400b03571c8d6049c66f8f40220dca099530c038805af09",
+        "sha256_in_prefix": "5430640f602347df5400b03571c8d6049c66f8f40220dca099530c038805af09",
+        "size_in_bytes": 1182
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/24.1ef414d0.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/25.daefc2ca.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "b2c456d5a9687fe44f2cca350210b9e45bed43a406d050193029764a06a6f3d8",
+        "sha256_in_prefix": "b2c456d5a9687fe44f2cca350210b9e45bed43a406d050193029764a06a6f3d8",
+        "size_in_bytes": 7219
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/25.daefc2ca.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/26.2572e3c9.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "5e4422e283f0f27b356799899ae17dc7d1af9279e6c5807e7ad75301720d8ffd",
+        "sha256_in_prefix": "5e4422e283f0f27b356799899ae17dc7d1af9279e6c5807e7ad75301720d8ffd",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/26.2572e3c9.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/27.1aafd82b.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "6eef31cffc7039ae3ebde6a663743221ee8ec29f9f3df96abacdc17c65ecbd8d",
+        "sha256_in_prefix": "6eef31cffc7039ae3ebde6a663743221ee8ec29f9f3df96abacdc17c65ecbd8d",
+        "size_in_bytes": 1409
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/27.1aafd82b.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/28.e233ef11.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "b3d205f01c94ba836b09e5fabf58448ad74b58f7bb830c1a8ad313e16fad36b4",
+        "sha256_in_prefix": "b3d205f01c94ba836b09e5fabf58448ad74b58f7bb830c1a8ad313e16fad36b4",
+        "size_in_bytes": 475
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/28.e233ef11.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/29.a4f69064.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "4f45d16367c46365a9fe2479561a623b6d4b271e0aeb905a6e4432a2d6917522",
+        "sha256_in_prefix": "4f45d16367c46365a9fe2479561a623b6d4b271e0aeb905a6e4432a2d6917522",
+        "size_in_bytes": 6451
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/29.a4f69064.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/30.80ce15a9.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "21331be7102a3d8bda149632c8bcf7c999dd62430f9fc5b27cf8fa13057dbaea",
+        "sha256_in_prefix": "21331be7102a3d8bda149632c8bcf7c999dd62430f9fc5b27cf8fa13057dbaea",
+        "size_in_bytes": 981
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/30.80ce15a9.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/31.45be9b9a.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "33d8e807212f7418824ea8eeda2707b19e09d70a73b2a0dfeaf59c5fbe545fd7",
+        "sha256_in_prefix": "33d8e807212f7418824ea8eeda2707b19e09d70a73b2a0dfeaf59c5fbe545fd7",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/31.45be9b9a.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "sha256_in_prefix": "dc3b12091afb70e7c58d5c25e174f3009e0908e83ae201613c070df0d8b6f5c9",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/32.3c6011cf.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "1c7d0225a5eff9853b8c58e38841785ab259aac852b2eb3bad29a44a29eab9aa",
+        "sha256_in_prefix": "1c7d0225a5eff9853b8c58e38841785ab259aac852b2eb3bad29a44a29eab9aa",
+        "size_in_bytes": 14916
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/33.72d7f62d.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "79b7978b3da1ad9a8f251319270ab0de6e7f94136f2dfb16797e549cf9fcab80",
+        "sha256_in_prefix": "79b7978b3da1ad9a8f251319270ab0de6e7f94136f2dfb16797e549cf9fcab80",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/34.7385bcb1.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "e22ccd08f1e80b4b067fbbade968328c4ff2bb2d79c3e56f72bf7ba9d4385600",
+        "sha256_in_prefix": "e22ccd08f1e80b4b067fbbade968328c4ff2bb2d79c3e56f72bf7ba9d4385600",
+        "size_in_bytes": 2564
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/35.64e75478.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "8cceb36c379185d54f7eb93aa142c1d6d34a790cc80492e8b07137ac8dda653e",
+        "sha256_in_prefix": "8cceb36c379185d54f7eb93aa142c1d6d34a790cc80492e8b07137ac8dda653e",
+        "size_in_bytes": 17066
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/36.114d10c3.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "63a26e212473e57a46aa7a1a034f3aa862ed2b274c687ceccd05981a8db6f71d",
+        "sha256_in_prefix": "63a26e212473e57a46aa7a1a034f3aa862ed2b274c687ceccd05981a8db6f71d",
+        "size_in_bytes": 1203
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/37.a5cecd62.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "104238e27788526dd107ca71a37b65911247201c65530ccabc8099e937e7a74f",
+        "sha256_in_prefix": "104238e27788526dd107ca71a37b65911247201c65530ccabc8099e937e7a74f",
+        "size_in_bytes": 4833
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/38.bbfe7162.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "0b8c71c17ceda5c20fb79c28046521fd6e730d6382678c80a401aa4e080c0ee7",
+        "sha256_in_prefix": "0b8c71c17ceda5c20fb79c28046521fd6e730d6382678c80a401aa4e080c0ee7",
+        "size_in_bytes": 1779
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/5.ffb8dd93.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "d92d303e048af85348dce282f00f9e2d8a34a8a373843c514dba647bfc2992a0",
+        "sha256_in_prefix": "d92d303e048af85348dce282f00f9e2d8a34a8a373843c514dba647bfc2992a0",
+        "size_in_bytes": 6361338
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/5.ffb8dd93.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "4555f6cc96dc3614425b2b0748f24a380ca1b24cb9aa0845dc987fccab5eea34",
+        "sha256_in_prefix": "4555f6cc96dc3614425b2b0748f24a380ca1b24cb9aa0845dc987fccab5eea34",
+        "size_in_bytes": 6252
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/6.39816ddb.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "7f5fa1dc250fc538a1af87906319a6487da629682e24b6dd34abdf461f3268e2",
+        "sha256_in_prefix": "7f5fa1dc250fc538a1af87906319a6487da629682e24b6dd34abdf461f3268e2",
+        "size_in_bytes": 2624288
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/6.39816ddb.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "7133d45d3daa693fd50bda50d074aeda43c2db7d561a432d8efd6179117e9a26",
+        "sha256_in_prefix": "7133d45d3daa693fd50bda50d074aeda43c2db7d561a432d8efd6179117e9a26",
+        "size_in_bytes": 1865
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/7.428fc038.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "4ec76475ae7befbc6991a8b5537ee04c3c7d94746a2ec9fd0b185af56b7123bd",
+        "sha256_in_prefix": "4ec76475ae7befbc6991a8b5537ee04c3c7d94746a2ec9fd0b185af56b7123bd",
+        "size_in_bytes": 1089762
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/7.428fc038.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "90bbc8b56f1361e4095acd074ac1ec7aa7e2f6a7cd26ee393c604f64a59b18ce",
+        "sha256_in_prefix": "90bbc8b56f1361e4095acd074ac1ec7aa7e2f6a7cd26ee393c604f64a59b18ce",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/8.6c51427b.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "fa427f7bb72fe624a31ca6ddd220dedabaf8228525e219b68a3ec60fdff36e62",
+        "sha256_in_prefix": "fa427f7bb72fe624a31ca6ddd220dedabaf8228525e219b68a3ec60fdff36e62",
+        "size_in_bytes": 136849
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/9.74ed064c.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "cea709ad9f144fdb57405f8744e7ac0a9f6cab0aae93291d2c92ee1119d94a2c",
+        "sha256_in_prefix": "cea709ad9f144fdb57405f8744e7ac0a9f6cab0aae93291d2c92ee1119d94a2c",
+        "size_in_bytes": 2386489
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/main.0f442c78.chunk.js",
+        "path_type": "hardlink",
+        "sha256": "74e9af3fb0726958f68129aac75c2e5f4a122b91800a852db1e77b8c941fc247",
+        "sha256_in_prefix": "74e9af3fb0726958f68129aac75c2e5f4a122b91800a852db1e77b8c941fc247",
+        "size_in_bytes": 475763
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/main.0f442c78.chunk.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c89deb5cc5ae3a79fa105137c9fadf50d1d33bb30cecda81b79e78268f1577d2",
+        "sha256_in_prefix": "c89deb5cc5ae3a79fa105137c9fadf50d1d33bb30cecda81b79e78268f1577d2",
+        "size_in_bytes": 1231
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/js/runtime-main.20c1b1c2.js",
+        "path_type": "hardlink",
+        "sha256": "6501e0b9c13d7e7f8f64c5e8567b73a07c56df093d048d6249b27cb652249881",
+        "sha256_in_prefix": "6501e0b9c13d7e7f8f64c5e8567b73a07c56df093d048d6249b27cb652249881",
+        "size_in_bytes": 4216
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexMono-Regular.bee53c8c.ttf",
+        "path_type": "hardlink",
+        "sha256": "4ce3632e13a3635b6a39e4149bb2674e883c565cc2ff1b2cecd3b654a0c16e50",
+        "sha256_in_prefix": "4ce3632e13a3635b6a39e4149bb2674e883c565cc2ff1b2cecd3b654a0c16e50",
+        "size_in_bytes": 113376
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Bold.5a0eb98b.ttf",
+        "path_type": "hardlink",
+        "sha256": "24d977a0e98448c959f059f8d4efb7efed22f92e980305b1b67e5c20514bbdd0",
+        "sha256_in_prefix": "24d977a0e98448c959f059f8d4efb7efed22f92e980305b1b67e5c20514bbdd0",
+        "size_in_bytes": 153236
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-BoldItalic.d5548132.ttf",
+        "path_type": "hardlink",
+        "sha256": "dc34709d967a38c4b84f4d58654dc77d8dd504e27019e5bb6596ee64c969b220",
+        "sha256_in_prefix": "dc34709d967a38c4b84f4d58654dc77d8dd504e27019e5bb6596ee64c969b220",
+        "size_in_bytes": 161500
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Italic.5c9d4db4.ttf",
+        "path_type": "hardlink",
+        "sha256": "d4fd35680193722744227376951c45f8d4ebb724650c08f9aff871ff8c0d5904",
+        "sha256_in_prefix": "d4fd35680193722744227376951c45f8d4ebb724650c08f9aff871ff8c0d5904",
+        "size_in_bytes": 161892
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Light.0a619f93.ttf",
+        "path_type": "hardlink",
+        "sha256": "1158b4b383a7a3d7d274637e8a11f6f5aa51b6590e463734f15064c30e548f26",
+        "sha256_in_prefix": "1158b4b383a7a3d7d274637e8a11f6f5aa51b6590e463734f15064c30e548f26",
+        "size_in_bytes": 154764
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-LightItalic.3a1f5a16.ttf",
+        "path_type": "hardlink",
+        "sha256": "d03ce13c36d313261308a28ca489ec3e889daec4d41983f7d6a0c9529a750c7e",
+        "sha256_in_prefix": "d03ce13c36d313261308a28ca489ec3e889daec4d41983f7d6a0c9529a750c7e",
+        "size_in_bytes": 163008
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Medium.c401b936.ttf",
+        "path_type": "hardlink",
+        "sha256": "2d0fd4ee5de785daaf9f5e7a9f526dae89cc94cd7bd95840df82f8a70360b5bd",
+        "sha256_in_prefix": "2d0fd4ee5de785daaf9f5e7a9f526dae89cc94cd7bd95840df82f8a70360b5bd",
+        "size_in_bytes": 154188
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-MediumItalic.3046879d.ttf",
+        "path_type": "hardlink",
+        "sha256": "3b346692ea1de5965a0f403f477016070359ef7afd9c6c16159af723eba23755",
+        "sha256_in_prefix": "3b346692ea1de5965a0f403f477016070359ef7afd9c6c16159af723eba23755",
+        "size_in_bytes": 161764
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSans-Regular.71a4981f.ttf",
+        "path_type": "hardlink",
+        "sha256": "58b1d57da4ff3b6790059a579fbb29abe247b938ca1369f8ee2231ce76f0a44e",
+        "sha256_in_prefix": "58b1d57da4ff3b6790059a579fbb29abe247b938ca1369f8ee2231ce76f0a44e",
+        "size_in_bytes": 153368
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Bold.58c7f8d5.ttf",
+        "path_type": "hardlink",
+        "sha256": "01eb23c92ed75a6c9f1ba4311913e843f09917486e82a54011fac83758052f9b",
+        "sha256_in_prefix": "01eb23c92ed75a6c9f1ba4311913e843f09917486e82a54011fac83758052f9b",
+        "size_in_bytes": 161076
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-BoldItalic.346afa5a.ttf",
+        "path_type": "hardlink",
+        "sha256": "7722e76c7ed130695de26f4d7912f6ce33dac51a2a4c525da35c2398fddb08fc",
+        "sha256_in_prefix": "7722e76c7ed130695de26f4d7912f6ce33dac51a2a4c525da35c2398fddb08fc",
+        "size_in_bytes": 170008
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Italic.bc84e537.ttf",
+        "path_type": "hardlink",
+        "sha256": "ce38d556f3ac78e839bc6c6aeb633d94fbe03e54056548372d79a98d8e980699",
+        "sha256_in_prefix": "ce38d556f3ac78e839bc6c6aeb633d94fbe03e54056548372d79a98d8e980699",
+        "size_in_bytes": 170104
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Light.2e84bbf0.ttf",
+        "path_type": "hardlink",
+        "sha256": "720269bb3cc9458ca92fd6a6d329f2041c3a06104221102408660dac8fadffc9",
+        "sha256_in_prefix": "720269bb3cc9458ca92fd6a6d329f2041c3a06104221102408660dac8fadffc9",
+        "size_in_bytes": 160064
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-LightItalic.1979fd74.ttf",
+        "path_type": "hardlink",
+        "sha256": "ac16d1d1565bf96a3dc2843b68676382d6648b589550993cbeda9c1e10f9f2c4",
+        "sha256_in_prefix": "ac16d1d1565bf96a3dc2843b68676382d6648b589550993cbeda9c1e10f9f2c4",
+        "size_in_bytes": 168484
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Medium.283fca3d.ttf",
+        "path_type": "hardlink",
+        "sha256": "44cd9a95f016de92bd3832ef7698cc8c431bcbe5246ebdfd12c524630ae20c0c",
+        "sha256_in_prefix": "44cd9a95f016de92bd3832ef7698cc8c431bcbe5246ebdfd12c524630ae20c0c",
+        "size_in_bytes": 161344
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-MediumItalic.fe93e7da.ttf",
+        "path_type": "hardlink",
+        "sha256": "f296fbe1ecf15ff9f778c7bdbe13928b173783814d38f6fb9c92b5fc8dfc869c",
+        "sha256_in_prefix": "f296fbe1ecf15ff9f778c7bdbe13928b173783814d38f6fb9c92b5fc8dfc869c",
+        "size_in_bytes": 170232
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/IBMPlexSerif-Regular.9e4f976f.ttf",
+        "path_type": "hardlink",
+        "sha256": "5604150aba3825da8219c5a7fbd18e72beaee8576cf9372accc78d9185db5e06",
+        "sha256_in_prefix": "5604150aba3825da8219c5a7fbd18e72beaee8576cf9372accc78d9185db5e06",
+        "size_in_bytes": 160352
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.b1489df1.woff",
+        "path_type": "hardlink",
+        "sha256": "ce1ebce55c88871c7a6059c3a51fd6ede5531335dc9856ab2790694aa67224a4",
+        "sha256_in_prefix": "ce1ebce55c88871c7a6059c3a51fd6ede5531335dc9856ab2790694aa67224a4",
+        "size_in_bytes": 38868
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.d4531cf7.woff2",
+        "path_type": "hardlink",
+        "sha256": "7a347422f8c437c7408502bc34144a3a994fca5eee52d3691905e0eaaece7f78",
+        "sha256_in_prefix": "7a347422f8c437c7408502bc34144a3a994fca5eee52d3691905e0eaaece7f78",
+        "size_in_bytes": 32944
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_AMS-Regular.f80d9eaf.ttf",
+        "path_type": "hardlink",
+        "sha256": "89d3c5f7f55deba5741efd2189a0a8132824035ff9ad869800759412adfc8682",
+        "sha256_in_prefix": "89d3c5f7f55deba5741efd2189a0a8132824035ff9ad869800759412adfc8682",
+        "size_in_bytes": 70972
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.0c96bc8f.ttf",
+        "path_type": "hardlink",
+        "sha256": "b86eaec3180a15a294294cff6c6689d86a4ab9baba37d868ecaddb66613ec723",
+        "sha256_in_prefix": "b86eaec3180a15a294294cff6c6689d86a4ab9baba37d868ecaddb66613ec723",
+        "size_in_bytes": 19316
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.7ce7636b.woff",
+        "path_type": "hardlink",
+        "sha256": "08c8229182fd845d3edb17810b3bf84fc919119bafd5a527c1433597afd4cc29",
+        "sha256_in_prefix": "08c8229182fd845d3edb17810b3bf84fc919119bafd5a527c1433597afd4cc29",
+        "size_in_bytes": 11696
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Bold.f046a374.woff2",
+        "path_type": "hardlink",
+        "sha256": "23225cffdca86a65f1d045768b764d46adf6f6673c69ad470561759d3bc08075",
+        "sha256_in_prefix": "23225cffdca86a65f1d045768b764d46adf6f6673c69ad470561759d3bc08075",
+        "size_in_bytes": 10448
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.35f3c951.ttf",
+        "path_type": "hardlink",
+        "sha256": "1568ca1aa82f7b3749dfdb3fa9fae47ecdad3e48268469a15e2ce6f4bed10ab4",
+        "sha256_in_prefix": "1568ca1aa82f7b3749dfdb3fa9fae47ecdad3e48268469a15e2ce6f4bed10ab4",
+        "size_in_bytes": 18684
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.4519ba4c.woff2",
+        "path_type": "hardlink",
+        "sha256": "cf6fe3404b917a1e51998741f0fec72fdd04fce82ccb20459c0c8fae46a76b1a",
+        "sha256_in_prefix": "cf6fe3404b917a1e51998741f0fec72fdd04fce82ccb20459c0c8fae46a76b1a",
+        "size_in_bytes": 10240
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Caligraphic-Regular.4a559f36.woff",
+        "path_type": "hardlink",
+        "sha256": "fc3b9d6af6452606e1e7978a139f5bdaa0480ee8c890ecea9267cd89ee701b6f",
+        "sha256_in_prefix": "fc3b9d6af6452606e1e7978a139f5bdaa0480ee8c890ecea9267cd89ee701b6f",
+        "size_in_bytes": 11460
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.069514d4.ttf",
+        "path_type": "hardlink",
+        "sha256": "9968ac3c9756403afc0c0f168509edd39e6b7ddca3a3e78e890da3718a5dafd7",
+        "sha256_in_prefix": "9968ac3c9756403afc0c0f168509edd39e6b7ddca3a3e78e890da3718a5dafd7",
+        "size_in_bytes": 35660
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.2ea3916b.woff",
+        "path_type": "hardlink",
+        "sha256": "ce8f6b8d0541e703bf270236cd2f22f94af0a3f3cd34853f7d2ab0944b4ed3a2",
+        "sha256_in_prefix": "ce8f6b8d0541e703bf270236cd2f22f94af0a3f3cd34853f7d2ab0944b4ed3a2",
+        "size_in_bytes": 22632
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Bold.5b8749ee.woff2",
+        "path_type": "hardlink",
+        "sha256": "e725b0b32ec6a3419677db6eee07cfd94952301fcce882c06563d8ee58518628",
+        "sha256_in_prefix": "e725b0b32ec6a3419677db6eee07cfd94952301fcce882c06563d8ee58518628",
+        "size_in_bytes": 20360
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.0d90113d.woff",
+        "path_type": "hardlink",
+        "sha256": "9d47d38ef92b81d2dfabee95b0d69fda25cc2cbaace7270749c3f99f3f51cbba",
+        "sha256_in_prefix": "9d47d38ef92b81d2dfabee95b0d69fda25cc2cbaace7270749c3f99f3f51cbba",
+        "size_in_bytes": 22088
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.2c629b06.woff2",
+        "path_type": "hardlink",
+        "sha256": "410f03b5cca26e017d80ea39f93ab00d890d436e4752ad7ac9dec79e7ece56a8",
+        "sha256_in_prefix": "410f03b5cca26e017d80ea39f93ab00d890d436e4752ad7ac9dec79e7ece56a8",
+        "size_in_bytes": 19784
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Fraktur-Regular.96556db6.ttf",
+        "path_type": "hardlink",
+        "sha256": "8dfd4f60ba0a35f62c7503f019e96d54ba5f509cd20453d66ea0bb89b898234b",
+        "sha256_in_prefix": "8dfd4f60ba0a35f62c7503f019e96d54ba5f509cd20453d66ea0bb89b898234b",
+        "size_in_bytes": 34352
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Bold.07e762d0.ttf",
+        "path_type": "hardlink",
+        "sha256": "9ce6c56369cf0928715d56b6c4357b46a73ac0957101ad2fdc23ea95fdd0c5d8",
+        "sha256_in_prefix": "9ce6c56369cf0928715d56b6c4357b46a73ac0957101ad2fdc23ea95fdd0c5d8",
+        "size_in_bytes": 60784
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Bold.20b90c20.woff2",
+        "path_type": "hardlink",
+        "sha256": "27df6e52f4329466744ed51e19b55f445729c2e37a741d762e4b65f74db9377c",
+        "sha256_in_prefix": "27df6e52f4329466744ed51e19b55f445729c2e37a741d762e4b65f74db9377c",
+        "size_in_bytes": 30244
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Bold.a9cdbc85.woff",
+        "path_type": "hardlink",
+        "sha256": "c2db7b8ce51021c292c6e2cd03bc11a4be96507345f62dd415787701c6afa940",
+        "sha256_in_prefix": "c2db7b8ce51021c292c6e2cd03bc11a4be96507345f62dd415787701c6afa940",
+        "size_in_bytes": 35464
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.7649d52f.woff",
+        "path_type": "hardlink",
+        "sha256": "84b2dc26d6a4ace6f25e9f39e7d8fdd9b64e97feede8ff6b9666b376d7582286",
+        "sha256_in_prefix": "84b2dc26d6a4ace6f25e9f39e7d8fdd9b64e97feede8ff6b9666b376d7582286",
+        "size_in_bytes": 25352
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.b345de5b.woff2",
+        "path_type": "hardlink",
+        "sha256": "f7e1c5a142292312a5a3ccd24829f34f578fa8d2bbcb800dab647f732f143fa0",
+        "sha256_in_prefix": "f7e1c5a142292312a5a3ccd24829f34f578fa8d2bbcb800dab647f732f143fa0",
+        "size_in_bytes": 21944
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-BoldItalic.bc8d96e9.ttf",
+        "path_type": "hardlink",
+        "sha256": "e06c469ed45a5db87889a655571b58aeee6bbbcf58a26cf3317fa1d62e3ac8d7",
+        "sha256_in_prefix": "e06c469ed45a5db87889a655571b58aeee6bbbcf58a26cf3317fa1d62e3ac8d7",
+        "size_in_bytes": 44496
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Italic.44a32ae6.ttf",
+        "path_type": "hardlink",
+        "sha256": "59ad22b91c4999b840d1266db8bf231aa22533543fb7ee26ecbd8d93aa770aad",
+        "sha256_in_prefix": "59ad22b91c4999b840d1266db8bf231aa22533543fb7ee26ecbd8d93aa770aad",
+        "size_in_bytes": 47640
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Italic.ab751a9e.woff2",
+        "path_type": "hardlink",
+        "sha256": "8caa4c487459a39c68ba316370865cdc0fb6284f1295b173454663e56bb8a33a",
+        "sha256_in_prefix": "8caa4c487459a39c68ba316370865cdc0fb6284f1295b173454663e56bb8a33a",
+        "size_in_bytes": 22748
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Italic.e3954fe9.woff",
+        "path_type": "hardlink",
+        "sha256": "e5279ba4cd2439be39d995a70d0c6520cb2febc2423bca381e57d82035de0f12",
+        "sha256_in_prefix": "e5279ba4cd2439be39d995a70d0c6520cb2febc2423bca381e57d82035de0f12",
+        "size_in_bytes": 26228
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Regular.13b3f852.woff2",
+        "path_type": "hardlink",
+        "sha256": "cce8f2e22e44c4ce931cd1432d2a241061f8601f0e5d865eb6e52629932c96f0",
+        "sha256_in_prefix": "cce8f2e22e44c4ce931cd1432d2a241061f8601f0e5d865eb6e52629932c96f0",
+        "size_in_bytes": 32464
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Regular.9e75cd60.woff",
+        "path_type": "hardlink",
+        "sha256": "f1d8b6477855998675dacbf85c275b369b209f2221190594d17077e86842c8b0",
+        "sha256_in_prefix": "f1d8b6477855998675dacbf85c275b369b209f2221190594d17077e86842c8b0",
+        "size_in_bytes": 38112
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Main-Regular.af7fc7b3.ttf",
+        "path_type": "hardlink",
+        "sha256": "ef1f105a5ac8d98ab0ddbc015bdda3041f3f499a08e3ea5fa1389b77a1b25293",
+        "sha256_in_prefix": "ef1f105a5ac8d98ab0ddbc015bdda3041f3f499a08e3ea5fa1389b77a1b25293",
+        "size_in_bytes": 69520
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.4d6241be.ttf",
+        "path_type": "hardlink",
+        "sha256": "180a9e8c89d5b4cb8a2e755d5e3dc10ddb466e6608e70436213f3ceea176dbf9",
+        "sha256_in_prefix": "180a9e8c89d5b4cb8a2e755d5e3dc10ddb466e6608e70436213f3ceea176dbf9",
+        "size_in_bytes": 39308
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.94810ff6.woff",
+        "path_type": "hardlink",
+        "sha256": "301943e01b59a2e5844d3b8500d4e508fb1cc77ea92a04cb29c9cafed52f4d1b",
+        "sha256_in_prefix": "301943e01b59a2e5844d3b8500d4e508fb1cc77ea92a04cb29c9cafed52f4d1b",
+        "size_in_bytes": 22324
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-BoldItalic.d5d35e84.woff2",
+        "path_type": "hardlink",
+        "sha256": "06ef074ba5e7dc66c5d6d2c37ec42db7c28688288278bc776beac4cd6fb217da",
+        "sha256_in_prefix": "06ef074ba5e7dc66c5d6d2c37ec42db7c28688288278bc776beac4cd6fb217da",
+        "size_in_bytes": 19720
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-Italic.11278d36.woff",
+        "path_type": "hardlink",
+        "sha256": "d9de33083224dacb133b8ef90c2fe59af169e292b6d04ca360112b4857d924b5",
+        "sha256_in_prefix": "d9de33083224dacb133b8ef90c2fe59af169e292b6d04ca360112b4857d924b5",
+        "size_in_bytes": 22844
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-Italic.cae7ea26.ttf",
+        "path_type": "hardlink",
+        "sha256": "af6e4c3730217aa8aab4d8c737682068d6bef3b251daee6f48664d9b3e55379c",
+        "sha256_in_prefix": "af6e4c3730217aa8aab4d8c737682068d6bef3b251daee6f48664d9b3e55379c",
+        "size_in_bytes": 40992
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Math-Italic.ffda8803.woff2",
+        "path_type": "hardlink",
+        "sha256": "fac6e4a3e3de30b2f9cb1d4bed073d1182db1c5f12a770eab7c14060ef35d908",
+        "sha256_in_prefix": "fac6e4a3e3de30b2f9cb1d4bed073d1182db1c5f12a770eab7c14060ef35d908",
+        "size_in_bytes": 20096
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.2946bdb5.woff",
+        "path_type": "hardlink",
+        "sha256": "2a956ec96f93519a122e6ef127483ef722d5e00c6954152cc7a123ada595b859",
+        "sha256_in_prefix": "2a956ec96f93519a122e6ef127483ef722d5e00c6954152cc7a123ada595b859",
+        "size_in_bytes": 18516
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.5a20a475.woff2",
+        "path_type": "hardlink",
+        "sha256": "1abcf0714d431568bc7d49e63277f0e2dbd03140e0a722da6d363d6f8e967905",
+        "sha256_in_prefix": "1abcf0714d431568bc7d49e63277f0e2dbd03140e0a722da6d363d6f8e967905",
+        "size_in_bytes": 15732
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Bold.f0ad0abc.ttf",
+        "path_type": "hardlink",
+        "sha256": "f6391f206311d28dc70c76f868a295fda56b1f7c66c2331f5ed53d4945152506",
+        "sha256_in_prefix": "f6391f206311d28dc70c76f868a295fda56b1f7c66c2331f5ed53d4945152506",
+        "size_in_bytes": 33688
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.c7feacd5.ttf",
+        "path_type": "hardlink",
+        "sha256": "6f8182b8fd0b31a430239c0674b0a56ae70a2c90b5f499e9661a675fcf24378d",
+        "sha256_in_prefix": "6f8182b8fd0b31a430239c0674b0a56ae70a2c90b5f499e9661a675fcf24378d",
+        "size_in_bytes": 30960
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.c834ba6d.woff",
+        "path_type": "hardlink",
+        "sha256": "77ae21bfbd88d8122e994aff68fdca34b2f232b42cd74adf78b996512adb33f1",
+        "sha256_in_prefix": "77ae21bfbd88d8122e994aff68fdca34b2f232b42cd74adf78b996512adb33f1",
+        "size_in_bytes": 17572
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Italic.e5fc2aef.woff2",
+        "path_type": "hardlink",
+        "sha256": "76f0a3166b09e05b384e5a01de0d0aafcc8bd2f31414f3c6e4d5b39a18be0aab",
+        "sha256_in_prefix": "76f0a3166b09e05b384e5a01de0d0aafcc8bd2f31414f3c6e4d5b39a18be0aab",
+        "size_in_bytes": 15024
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.5af9e1cf.ttf",
+        "path_type": "hardlink",
+        "sha256": "5fabdc722cd155c489a8a522014e4a4019d8798e7092d13cd6850453ffa78f7f",
+        "sha256_in_prefix": "5fabdc722cd155c489a8a522014e4a4019d8798e7092d13cd6850453ffa78f7f",
+        "size_in_bytes": 29812
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.5bf28900.woff2",
+        "path_type": "hardlink",
+        "sha256": "988111e812f5a65112f25e9a200d8898c32fa5caa808e6f5501b74c38931a3f5",
+        "sha256_in_prefix": "988111e812f5a65112f25e9a200d8898c32fa5caa808e6f5501b74c38931a3f5",
+        "size_in_bytes": 13708
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_SansSerif-Regular.a4fd0563.woff",
+        "path_type": "hardlink",
+        "sha256": "b87c6eade55690b5cee6e66b2f0885593b3f411d4fe900dee548a74e78fc2cb6",
+        "sha256_in_prefix": "b87c6eade55690b5cee6e66b2f0885593b3f411d4fe900dee548a74e78fc2cb6",
+        "size_in_bytes": 16228
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Script-Regular.a1c15978.woff2",
+        "path_type": "hardlink",
+        "sha256": "fa14a71d90b86354eb2c91595b2a118e90d1b94ee4daafcd2fd9e857c6b83ddc",
+        "sha256_in_prefix": "fa14a71d90b86354eb2c91595b2a118e90d1b94ee4daafcd2fd9e857c6b83ddc",
+        "size_in_bytes": 12064
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Script-Regular.cd3b0634.woff",
+        "path_type": "hardlink",
+        "sha256": "41b2ef81df7103de00d47743ab7a3fe61105a8c21f1b5f55e3fec8f2cda2b94f",
+        "sha256_in_prefix": "41b2ef81df7103de00d47743ab7a3fe61105a8c21f1b5f55e3fec8f2cda2b94f",
+        "size_in_bytes": 13428
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Script-Regular.dd0db7ae.ttf",
+        "path_type": "hardlink",
+        "sha256": "e442ce8239b36ad629c757737c2a34a5876cc20607cbb165bfb5a91cfbe25ef3",
+        "sha256_in_prefix": "e442ce8239b36ad629c757737c2a34a5876cc20607cbb165bfb5a91cfbe25ef3",
+        "size_in_bytes": 24620
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.1876361f.woff2",
+        "path_type": "hardlink",
+        "sha256": "44c04e130b4333b2438052e890e5ebd877e6f6e104ca0659219bacc4b9190830",
+        "sha256_in_prefix": "44c04e130b4333b2438052e890e5ebd877e6f6e104ca0659219bacc4b9190830",
+        "size_in_bytes": 5592
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.bbd9552c.ttf",
+        "path_type": "hardlink",
+        "sha256": "6ff83fa3bb76941759777a3d7cf5e19155635191b960728f585c593d6f3f193c",
+        "sha256_in_prefix": "6ff83fa3bb76941759777a3d7cf5e19155635191b960728f585c593d6f3f193c",
+        "size_in_bytes": 12916
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size1-Regular.c4ae0d25.woff",
+        "path_type": "hardlink",
+        "sha256": "0152f420481d302f4de3954d98f83404155f1bc6ab90c209d7a926a06e4c8a4d",
+        "sha256_in_prefix": "0152f420481d302f4de3954d98f83404155f1bc6ab90c209d7a926a06e4c8a4d",
+        "size_in_bytes": 6696
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.635e9324.woff",
+        "path_type": "hardlink",
+        "sha256": "fa1eb01f2e704954cabee6977518b533eb9304e1994ce1095aa34b05221cf57d",
+        "sha256_in_prefix": "fa1eb01f2e704954cabee6977518b533eb9304e1994ce1095aa34b05221cf57d",
+        "size_in_bytes": 6436
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.d1e8ff17.ttf",
+        "path_type": "hardlink",
+        "sha256": "216cd1b1aa23fe169e41fecf6c4a61e7338bb2d95adc604a111fa7df04c9f2aa",
+        "sha256_in_prefix": "216cd1b1aa23fe169e41fecf6c4a61e7338bb2d95adc604a111fa7df04c9f2aa",
+        "size_in_bytes": 12172
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size2-Regular.f516b73c.woff2",
+        "path_type": "hardlink",
+        "sha256": "b8b354441879f3e367ca6a71baa3356ceac86852815328d8e4b9ee562256560e",
+        "sha256_in_prefix": "b8b354441879f3e367ca6a71baa3356ceac86852815328d8e4b9ee562256560e",
+        "size_in_bytes": 5392
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.1ef7adae.woff2",
+        "path_type": "hardlink",
+        "sha256": "16a5bb85a7418b0e593563578e524c212de0ec87f7e6fd9739452bd42522f4ce",
+        "sha256_in_prefix": "16a5bb85a7418b0e593563578e524c212de0ec87f7e6fd9739452bd42522f4ce",
+        "size_in_bytes": 3728
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.5d632274.ttf",
+        "path_type": "hardlink",
+        "sha256": "00fd6016cebc419cac7143d9c8f6a3279cc6e33009d17c513d64227ac41d44fb",
+        "sha256_in_prefix": "00fd6016cebc419cac7143d9c8f6a3279cc6e33009d17c513d64227ac41d44fb",
+        "size_in_bytes": 8120
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size3-Regular.f32a9fde.woff",
+        "path_type": "hardlink",
+        "sha256": "ea931a5ffb9f81710277c89ee1902e95e49c77490f937e481e254d68f7209a3a",
+        "sha256_in_prefix": "ea931a5ffb9f81710277c89ee1902e95e49c77490f937e481e254d68f7209a3a",
+        "size_in_bytes": 4568
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.1d132596.ttf",
+        "path_type": "hardlink",
+        "sha256": "1ffe0db6dbffbd0460ca68aebc97653dd333a43cda13270518e4516a1ebe3c76",
+        "sha256_in_prefix": "1ffe0db6dbffbd0460ca68aebc97653dd333a43cda13270518e4516a1ebe3c76",
+        "size_in_bytes": 11016
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.4f012d6a.woff2",
+        "path_type": "hardlink",
+        "sha256": "c4e523160e699945d3697e2f4dc7fcc611aed41d3003d3fc955461a48994bcba",
+        "sha256_in_prefix": "c4e523160e699945d3697e2f4dc7fcc611aed41d3003d3fc955461a48994bcba",
+        "size_in_bytes": 5028
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Size4-Regular.f668d566.woff",
+        "path_type": "hardlink",
+        "sha256": "581b07f16ac528a7d6e68146fb2b799bd03f77d18bda7ac928a75e250a871760",
+        "sha256_in_prefix": "581b07f16ac528a7d6e68146fb2b799bd03f77d18bda7ac928a75e250a871760",
+        "size_in_bytes": 6184
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.4f31d033.woff2",
+        "path_type": "hardlink",
+        "sha256": "e2505fc5a117cbc9826d1fe0dee3befc324d898b384baa789ac366d3f6022f73",
+        "sha256_in_prefix": "e2505fc5a117cbc9826d1fe0dee3befc324d898b384baa789ac366d3f6022f73",
+        "size_in_bytes": 17272
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.b1d1af1a.ttf",
+        "path_type": "hardlink",
+        "sha256": "46799c96df52b710ce843ffa66c2a82fd3e2d6c380a02ff66eb83dc6f6851802",
+        "sha256_in_prefix": "46799c96df52b710ce843ffa66c2a82fd3e2d6c380a02ff66eb83dc6f6851802",
+        "size_in_bytes": 35924
+      },
+      {
+        "_path": "site-packages/streamlit/static/static/media/KaTeX_Typewriter-Regular.d3c8e68f.woff",
+        "path_type": "hardlink",
+        "sha256": "b205e1762a82f0a31f70058cac23dce8c4cc56fb3f0d3178e050df459363f974",
+        "sha256_in_prefix": "b205e1762a82f0a31f70058cac23dce8c4cc56fb3f0d3178e050df459363f974",
+        "size_in_bytes": 20260
+      },
+      {
+        "_path": "site-packages/streamlit/static/vendor/viz/viz-1.8.0.min.js",
+        "path_type": "hardlink",
+        "sha256": "2314a46490b0ad642edd674db932fbf6066e3f274a263e46296510925006dedc",
+        "sha256_in_prefix": "2314a46490b0ad642edd674db932fbf6066e3f274a263e46296510925006dedc",
+        "size_in_bytes": 7055772
+      },
+      {
+        "_path": "site-packages/streamlit/static/vendor/viz/viz.js-LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "b9a0b3fcb35b2b675f3a199c31eb19edd1dec3aa08687be4fb0d317e865e35cd",
+        "sha256_in_prefix": "b9a0b3fcb35b2b675f3a199c31eb19edd1dec3aa08687be4fb0d317e865e35cd",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "site-packages/streamlit/storage/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/storage/abstract_storage.py",
+        "path_type": "hardlink",
+        "sha256": "b01fdc19bc24957761d3a841e58c5414b5d098168ef2b120a08804ed6afe80a8",
+        "sha256_in_prefix": "b01fdc19bc24957761d3a841e58c5414b5d098168ef2b120a08804ed6afe80a8",
+        "size_in_bytes": 5770
+      },
+      {
+        "_path": "site-packages/streamlit/storage/file_storage.py",
+        "path_type": "hardlink",
+        "sha256": "fa429200979dc50a8c3180e9c592d72476ac0068a7c34b37454844340ee3774a",
+        "sha256_in_prefix": "fa429200979dc50a8c3180e9c592d72476ac0068a7c34b37454844340ee3774a",
+        "size_in_bytes": 2587
+      },
+      {
+        "_path": "site-packages/streamlit/storage/s3_storage.py",
+        "path_type": "hardlink",
+        "sha256": "ae2c55cbb5af20332e77299ee50a153ec9b486f68e15c8f9f14beb06f2561bb0",
+        "sha256_in_prefix": "ae2c55cbb5af20332e77299ee50a153ec9b486f68e15c8f9f14beb06f2561bb0",
+        "size_in_bytes": 7460
+      },
+      {
+        "_path": "site-packages/streamlit/string_util.py",
+        "path_type": "hardlink",
+        "sha256": "f002388cf2b4e41ef09d70760148a3316fd7bec926f3f1d5917d7b8ebf4c5102",
+        "sha256_in_prefix": "f002388cf2b4e41ef09d70760148a3316fd7bec926f3f1d5917d7b8ebf4c5102",
+        "size_in_bytes": 1623
+      },
+      {
+        "_path": "site-packages/streamlit/temporary_directory.py",
+        "path_type": "hardlink",
+        "sha256": "a707e50603438a88684611eb2af2dd1646b89eb5d33361a270e7af1268136abc",
+        "sha256_in_prefix": "a707e50603438a88684611eb2af2dd1646b89eb5d33361a270e7af1268136abc",
+        "size_in_bytes": 1566
+      },
+      {
+        "_path": "site-packages/streamlit/type_util.py",
+        "path_type": "hardlink",
+        "sha256": "7159b274828a4e787d59de1579fec53002659e63f8cd29635de94d9e72542386",
+        "sha256_in_prefix": "7159b274828a4e787d59de1579fec53002659e63f8cd29635de94d9e72542386",
+        "size_in_bytes": 7566
+      },
+      {
+        "_path": "site-packages/streamlit/uploaded_file_manager.py",
+        "path_type": "hardlink",
+        "sha256": "d93234bee6b174af992b7eef5e7dc91b9611d917c02da0b588d29d4eb80ef047",
+        "sha256_in_prefix": "d93234bee6b174af992b7eef5e7dc91b9611d917c02da0b588d29d4eb80ef047",
+        "size_in_bytes": 10196
+      },
+      {
+        "_path": "site-packages/streamlit/url_util.py",
+        "path_type": "hardlink",
+        "sha256": "a62967f70a3cee1dad8e024e9828cb63ea8af0226e70166582bc6ac46c9f7d1b",
+        "sha256_in_prefix": "a62967f70a3cee1dad8e024e9828cb63ea8af0226e70166582bc6ac46c9f7d1b",
+        "size_in_bytes": 2259
+      },
+      {
+        "_path": "site-packages/streamlit/util.py",
+        "path_type": "hardlink",
+        "sha256": "2f50868c27e94c1dadb7bef9d827b858e73726d7d921390a30e8cfcc6a6fa7fc",
+        "sha256_in_prefix": "2f50868c27e94c1dadb7bef9d827b858e73726d7d921390a30e8cfcc6a6fa7fc",
+        "size_in_bytes": 3388
+      },
+      {
+        "_path": "site-packages/streamlit/version.py",
+        "path_type": "hardlink",
+        "sha256": "33cc9147e48d52739727163948e755b1c5d4e96068a9766f3cf4a601e345da63",
+        "sha256_in_prefix": "33cc9147e48d52739727163948e755b1c5d4e96068a9766f3cf4a601e345da63",
+        "size_in_bytes": 3182
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "sha256_in_prefix": "79e07b631d8da5b84004ee74294188ae129e2a8aae506c165608fbd62ab01905",
+        "size_in_bytes": 582
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/event_based_file_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "3f06e7e0ba158504aa17da3c4ec81ed95ec98b1daa6f8dbfc6833fb4f1d6d1f8",
+        "sha256_in_prefix": "3f06e7e0ba158504aa17da3c4ec81ed95ec98b1daa6f8dbfc6833fb4f1d6d1f8",
+        "size_in_bytes": 12054
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/file_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "14bdbc3eaf0763c815678c7c64cf428976e652a2c2e8bb771d1ae194b345bba5",
+        "sha256_in_prefix": "14bdbc3eaf0763c815678c7c64cf428976e652a2c2e8bb771d1ae194b345bba5",
+        "size_in_bytes": 3653
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/local_sources_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "6c8f23ddc2e84591bd6c79fc4083bb6f5aaba6dd2d4b4cec9788bcfb4ce8126c",
+        "sha256_in_prefix": "6c8f23ddc2e84591bd6c79fc4083bb6f5aaba6dd2d4b4cec9788bcfb4ce8126c",
+        "size_in_bytes": 6642
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/polling_file_watcher.py",
+        "path_type": "hardlink",
+        "sha256": "6d7e9f1eba150e5e97cd1e68cf7f81c5ee3ae7ace1c9d898e57063d1c1a22298",
+        "sha256_in_prefix": "6d7e9f1eba150e5e97cd1e68cf7f81c5ee3ae7ace1c9d898e57063d1c1a22298",
+        "size_in_bytes": 3177
+      },
+      {
+        "_path": "site-packages/streamlit/watcher/util.py",
+        "path_type": "hardlink",
+        "sha256": "9cfe65abe80615c8b8a9581708bc8854ac958dcb9fbd5e9cd8f5284814660eff",
+        "sha256_in_prefix": "9cfe65abe80615c8b8a9581708bc8854ac958dcb9fbd5e9cd8f5284814660eff",
+        "size_in_bytes": 2254
+      },
+      {
+        "_path": "site-packages/streamlit/widgets.py",
+        "path_type": "hardlink",
+        "sha256": "231d876675d1e4a117c047fc8ba6909b57bc2238db49511985f8d3d1f6c194db",
+        "sha256_in_prefix": "231d876675d1e4a117c047fc8ba6909b57bc2238db49511985f8d3d1f6c194db",
+        "size_in_bytes": 8037
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/beta_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/bootstrap.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/caching.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/case_converters.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/cli.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/code_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/commands/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/commands/__pycache__/page_config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/components/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/components/v1/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/components/v1/__pycache__/components.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/config_option.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/config_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/credentials.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/cursor.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/delta_generator.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/development.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/alert.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/altair.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/arrow_table.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/balloons.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/bokeh_chart.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/button.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/checkbox.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/color_picker.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/data_frame.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/deck_gl_json_chart.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/doc_string.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/empty.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/exception.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/file_uploader.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/form.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/graphviz_chart.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/iframe.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/image.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/json.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/layouts.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/lib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/lib/__pycache__/dicttools.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/map.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/markdown.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/media.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/multiselect.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/number_input.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/plotly_chart.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/progress.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/pyplot.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/radio.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/select_slider.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/selectbox.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/slider.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/text.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/text_widgets.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/time_widgets.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/vega_lite.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/elements/__pycache__/write.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/env_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/error_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/file_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/folder_black_list.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/forward_msg_cache.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/git_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/hashing.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/hello/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/hello/__pycache__/demos.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/hello/__pycache__/hello.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/js_number.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/logger.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/magic.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/media_file_manager.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/metrics.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/metrics_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/net_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/policy.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Alert_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/ArrowDataframe_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/ArrowTable_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Audio_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/BackMsg_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Balloons_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Block_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/BokehChart_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Button_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Checkbox_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/ClientState_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/ColorPicker_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Common_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/ComponentInstance_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/DataFrame_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/DateInput_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/DeckGlJsonChart_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Delta_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/DocString_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Element_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Empty_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Exception_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Favicon_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/FileUploader_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/ForwardMsg_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/GitInfo_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/GraphVizChart_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/IFrame_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Image_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Json_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Markdown_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/MultiSelect_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/NamedDataSet_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/NewReport_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/NumberInput_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/PageConfig_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/PageInfo_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/PlotlyChart_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Progress_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Radio_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/RootContainer_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Selectbox_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/SessionEvent_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/SessionState_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Slider_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/StaticManifest_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/TextArea_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/TextInput_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Text_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/TimeInput_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/VegaLiteChart_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/Video_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/WidgetStates_pb2.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/proto/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/report.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/report_queue.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/report_session.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/report_thread.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/script_request_queue.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/script_runner.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/secrets.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/server/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/server/__pycache__/routes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/server/__pycache__/server.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/server/__pycache__/server_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/server/__pycache__/upload_file_request_handler.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/source_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/storage/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/storage/__pycache__/abstract_storage.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/storage/__pycache__/file_storage.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/storage/__pycache__/s3_storage.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/string_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/temporary_directory.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/type_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/uploaded_file_manager.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/url_util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/watcher/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/watcher/__pycache__/event_based_file_watcher.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/watcher/__pycache__/file_watcher.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/watcher/__pycache__/local_sources_watcher.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/watcher/__pycache__/polling_file_watcher.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/watcher/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/streamlit/__pycache__/widgets.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/streamlit",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "streamlit",
+  "sha256": "5b429d3ce6a299af1c3a40d9b1a118fe674c0fcadae7b2a331302ff2e4e6ae3a",
+  "size": 6875803,
+  "subdir": "noarch",
+  "timestamp": 1619730217700,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/streamlit-0.81.0-pyhd8ed1ab_0.tar.bz2",
+  "version": "0.81.0"
+}

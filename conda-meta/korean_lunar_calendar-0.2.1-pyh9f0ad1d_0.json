@@ -1,0 +1,120 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/matchstix/anaconda3/pkgs/korean_lunar_calendar-0.2.1-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/korean_lunar_calendar-0.2.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/korean_lunar_calendar-0.2.1.dist-info/LICENSE",
+    "lib/python3.8/site-packages/korean_lunar_calendar-0.2.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/korean_lunar_calendar-0.2.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/korean_lunar_calendar-0.2.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/korean_lunar_calendar-0.2.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/korean_lunar_calendar-0.2.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/korean_lunar_calendar/__init__.py",
+    "lib/python3.8/site-packages/korean_lunar_calendar/korean_lunar_calendar.py",
+    "lib/python3.8/site-packages/korean_lunar_calendar/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/korean_lunar_calendar/__pycache__/korean_lunar_calendar.cpython-38.pyc"
+  ],
+  "fn": "korean_lunar_calendar-0.2.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/matchstix/anaconda3/pkgs/korean_lunar_calendar-0.2.1-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "62bcb1690068f169868c09e0ed3cd8bf",
+  "name": "korean_lunar_calendar",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/matchstix/anaconda3/pkgs/korean_lunar_calendar-0.2.1-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/korean_lunar_calendar-0.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/korean_lunar_calendar-0.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "0ba0b32231bea04f4b037b9b138d83e78dc0781a3f568668b921e95dc6ca09f5",
+        "sha256_in_prefix": "0ba0b32231bea04f4b037b9b138d83e78dc0781a3f568668b921e95dc6ca09f5",
+        "size_in_bytes": 1079
+      },
+      {
+        "_path": "site-packages/korean_lunar_calendar-0.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "329a0ae07d4d21a088fa63aee6a23c896ce4505f5dfc41855044d19174820061",
+        "sha256_in_prefix": "329a0ae07d4d21a088fa63aee6a23c896ce4505f5dfc41855044d19174820061",
+        "size_in_bytes": 2876
+      },
+      {
+        "_path": "site-packages/korean_lunar_calendar-0.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "865e978a2d5c0b5dc489750e392c95ef528945b237ef3e608eb085d4e1493fc6",
+        "sha256_in_prefix": "865e978a2d5c0b5dc489750e392c95ef528945b237ef3e608eb085d4e1493fc6",
+        "size_in_bytes": 1003
+      },
+      {
+        "_path": "site-packages/korean_lunar_calendar-0.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/korean_lunar_calendar-0.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7dad696cf2aa30d2f653f2712890e07bf0373bfc4cac64da10972a7fdacfc108",
+        "sha256_in_prefix": "7dad696cf2aa30d2f653f2712890e07bf0373bfc4cac64da10972a7fdacfc108",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/korean_lunar_calendar-0.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1cac7cd52f8bb5c995a781e889d120f59e8550ec57830d52f1a6c875deed9c6a",
+        "sha256_in_prefix": "1cac7cd52f8bb5c995a781e889d120f59e8550ec57830d52f1a6c875deed9c6a",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "site-packages/korean_lunar_calendar/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "46d3c3532bb0a6610875c29dbec109c06c4a1a7f10a56039fa038f2fc8003028",
+        "sha256_in_prefix": "46d3c3532bb0a6610875c29dbec109c06c4a1a7f10a56039fa038f2fc8003028",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/korean_lunar_calendar/korean_lunar_calendar.py",
+        "path_type": "hardlink",
+        "sha256": "05a641c83fc09b30dda3da487c344184936cc90932af3fccc8440bc386dd6432",
+        "sha256_in_prefix": "05a641c83fc09b30dda3da487c344184936cc90932af3fccc8440bc386dd6432",
+        "size_in_bytes": 20330
+      },
+      {
+        "_path": "lib/python3.8/site-packages/korean_lunar_calendar/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/korean_lunar_calendar/__pycache__/korean_lunar_calendar.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ae1edf64566c6626aa6e4bcd9bb6c522f98df44b33db437048954e63ba664cdc",
+  "size": 10514,
+  "subdir": "noarch",
+  "timestamp": 1589354465659,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/korean_lunar_calendar-0.2.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "0.2.1"
+}
